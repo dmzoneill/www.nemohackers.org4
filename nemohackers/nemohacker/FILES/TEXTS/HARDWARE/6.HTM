@@ -1,0 +1,319 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=(0040)http://www.mkdata.dk/click/module3b1.htm -->
+<HTML><HEAD><TITLE>An illustrated Guide to CPU improvements</TITLE>
+<META content="text/html; charset=windows-1252" http-equiv=Content-Type>
+<META content="Michael B. Karbo" name=Author>
+<META 
+content="An illustrated Guide to CPU improvements. About clock frequency and doubling. L1 and L2 Cache. History of the CPUs. For teachers, students and self-study." 
+name=Description>
+<META 
+content="Clock frequency, Clock doubling, CPU cache, RAM, 8086, 8088, 80286, 80386SX, 80386DX, 80486DX, DX2, DX4, 5X86" 
+name=KeyWords><!--
+An illustrated Guide to CPU improvements. About clock frequency and doubling. L1 and L2 Cache. History of the CPUs. For teachers, students and self-study.
+An illustrated Guide to CPU improvements. About clock frequency and doubling. L1 and L2 Cache. History of the CPUs. For teachers, students and self-study.
+An illustrated Guide to CPU improvements. About clock frequency and doubling. L1 and L2 Cache. History of the CPUs. For teachers, students and self-study.
+--><LINK href="6_files/karbo.css" rel=StyleSheet type=text/css><!-- begin Imagine advertisement template -->
+<SCRIPT language=Javascript>
+    var ad_now    = new Date();
+    var ad_random = ad_now.getTime();
+    document.write('<IFRAME WIDTH=468 HEIGHT=60 MARGINWIDTH=0 MARGINHEIGHT=0 HSPACE=0 VSPACE=0 FRAMEBORDER=0 SCROLLING=no BORDERCOLOR="#000000" SRC="http://maximumpc.usads.futurenet.com/hserver/site=MAXIMUMPC.KARBOSGUIDE/area=WINDOWS.PERIPHERALS.STORAGE/aamsz=468X60/acc_random='+ad_random+ '">');
+    document.write('<a href="http://maximumpc.usads.futurenet.com/adclick.exe/site=MAXIMUMPC.KARBOSGUIDE/area=WINDOWS.PERIPHERALS.STORAGE/aamsz=468X60/acc_random=' + ad_random + '">');
+    document.write('<img src="http://maximumpc.usads.futurenet.com/adserver.exe/site=MAXIMUMPC.KARBOSGUIDE/area=WINDOWS.PERIPHERALS.STORAGE/aamsz=468X60/acc_random='+ad_random+'" border=0 width=468 height=60>');
+    document.write('</a>');
+    document.write('</iframe>\n');
+</SCRIPT>
+<NOSCRIPT>
+<META content="MSHTML 5.00.2614.3500" name=GENERATOR></HEAD>
+<BODY bgColor=#ffffff><A name=top></A><A 
+href="http://maximumpc.usads.futurenet.com/adclick.exe/site=MAXIMUMPC.KARBOSGUIDE/area=WINDOWS.PERIPHERALS.STORAGE/aamsz=468X60"><IMG 
+border=0 height=60 src="6_files/468x60_nokia8260_15k_3l_011501.gif" 
+width=468></A> 
+</NOSCRIPT><!-- end Imagine advertisement template --><!-- xx --><BR><FONT 
+size=-2>Please click on the banners to support Click &amp; Learn!</FONT> 
+<P>
+<DIV class=normal>
+<H2>Click &amp; Learn. Module 3b1. WWW.MKDATA.DK</H2>
+<H1>The CPU – developments and improvements</H1>
+<P>
+<HR>
+
+<P>The contents: 
+<P>
+<TABLE border=0 cellPadding=0 cellSpacing=5 width="80%">
+  <TBODY>
+  <TR>
+    <TD vAlign=top>
+      <DIV class=igen>
+      <UL>
+        <LI><A 
+        href="http://www.mkdata.dk/click/module3b1.htm#CPU_klokfrekvens">Clock 
+        frequency and -doubling</A>
+        <LI><A 
+        href="http://www.mkdata.dk/click/module3b1.htm#CPU_hastigheder">The CPU 
+        – speed measurement</A>
+        <LI><A 
+        href="http://www.mkdata.dk/click/module3b1.htm#CPU_skiftene_historisk">CPU 
+        changes - historical review</A> </LI></UL></DIV></TD>
+    <TD vAlign=top>
+      <UL>
+        <LI><A href="http://www.mkdata.dk/click/module3b2.htm">Next page</A> 
+        <LI><A href="http://www.mkdata.dk/click/module3a3.htm">Previous page</A> 
+        </LI></UL><!-- begin Imagine advertisement template -->
+      <SCRIPT language=Javascript>
+    var ad_now    = new Date();
+    var ad_random = ad_now.getTime();
+    document.write('<IFRAME WIDTH=88 HEIGHT=31 MARGINWIDTH=0 MARGINHEIGHT=0 HSPACE=0 VSPACE=0 FRAMEBORDER=0 SCROLLING=no BORDERCOLOR="#000000" SRC="http://maximumpc.usads.futurenet.com/hserver/site=MAXIMUMPC.KARBOSGUIDE/area=ROS/aamsz=88X31/acc_random='+ad_random+ '">');
+    document.write('<a href="http://maximumpc.usads.futurenet.com/adclick.exe/site=MAXIMUMPC.KARBOSGUIDE/area=ROS/aamsz=88X31/acc_random=' + ad_random + '">');
+    document.write('<img src="http://maximumpc.usads.futurenet.com/adserver.exe/site=MAXIMUMPC.KARBOSGUIDE/area=ROS/aamsz=88X31/acc_random='+ad_random+'" border=0 width=88 height=31>');
+    document.write('</a>');
+    document.write('</iframe>\n');
+</SCRIPT>
+      <NOSCRIPT><A 
+      href="http://maximumpc.usads.futurenet.com/adclick.exe/site=MAXIMUMPC.KARBOSGUIDE/area=ROS/aamsz=88X31"><IMG 
+      border=0 height=31 src="6_files/88x31_logo_2k_nl_100200.gif" width=88></A> 
+      </NOSCRIPT><!-- end Imagine advertisement template --></TD></TR></TBODY></TABLE>
+<P>
+<P>
+<P><!-- x120x90x --></A>
+<P>
+<HR>
+
+<P>
+<H2>Intro</H2>
+<P><A name=CPU_klokfrekvens></A>
+<DIV class=igen>If you have to improve a CPU – and that happens all the time – 
+it is not only a matter of technical development. There are many bottlenecks in 
+and around the CPU, which are continually being bettered. 
+<P>To understand these technological improvements, one must remember that the 
+CPU is a data processing gadget, mounted on a printed circuit board (the 
+motherboard). Much of the data processing takes place inside the CPU. However, 
+all data must be transported to and from the CPU via the system bus. But what 
+determines the speed of the CPU? 
+<P>
+<HR>
+
+<P><!--Begin Flycast Ad Copyright 1999 Flycast Communications. 
+    All rights reserved. Patent Pending -->
+<SCRIPT language=JAVASCRIPT>
+    <!--
+    FlycastSite	= "ClickLearn";
+    FlycastPage	= "RunofSite";
+    FlycastWidth	= 468;
+    FlycastHeight	= 60;
+    FlycastPrintTag	= true;
+    FlycastNewAd	= true;
+    FlycastLoaded	= false;
+    FlycastVersion	= 3.5;
+    //-->
+    </SCRIPT>
+
+<SCRIPT language=JAVASCRIPT src="6_files/FlycastUniversal"></SCRIPT>
+
+<SCRIPT language=JAVASCRIPT>
+    <!--
+	if (FlycastLoaded) FlycastDeliverAd();
+    //-->
+    </SCRIPT>
+<NOSCRIPT><IFRAME frameBorder=0 height=60 marginHeight=0 marginWidth=0 
+scrolling=no src="6_files/acc_random=951395996720.htm" 
+width=468>
+	<A target="_top" HREF="http://ad-adex3.flycast.com/server/click/ClickLearn/RunofSite/123456"><IMG BORDER=0 WIDTH=468 HEIGHT=60 SRC="http://ad-adex3.flycast.com/server/img/ClickLearn/RunofSite/123456"></A>
+	</IFRAME></IFRAME></NOSCRIPT><!--End Flycast Ad Copyright 1999 Flycast Communications. All rights reserved. Patent Pending -->
+<P>
+<HR>
+
+<P>
+<TABLE border=0 cols=2 width="80%">
+  <TBODY>
+  <TR>
+    <TD vAlign=top>
+      <H2>Clock frequency</H2></TD>
+    <TD width=200>
+      <DIV align=right>
+      <H3><A 
+      href="http://www.mkdata.dk/click/module3b1.htm#top">[top]</A></H3></DIV></TD></TR></TBODY></TABLE>
+<DIV class=igen>We know this from the ads: "A Celeron 466 MHz." The 466 MHz is 
+the <I>clock frequency. </I>Actually, there is a small crystal on the 
+motherboard. which continually ticks to the CPU at a steady number of <I>clock 
+ticks</I> per second. At each clock tick <I>something happens </I>in the CPU. 
+Thus, the more ticks per second – the more data are processed per second. 
+<P><IMG height=138 src="6_files/u1979.gif" vspace=20 width=360 NOSAVE> 
+<P>The first CPUs worked at a frequency of 4.77 MHz. Subsequently then, clock 
+frequencies rates rose to 16, 25, 50, 66, 90, 133 and 200 MHz to the best today, 
+which operate at 550 MHz. Clock frequencies are still being increased. In a few 
+years we will have CPUs operating at 1,200 MHz and more. 
+<P>To reach these very high clock frequencies, one has to employ a technique 
+called clock doubling. 
+<P>
+<HR>
+
+<P>
+<TABLE border=0 cols=2 width="80%">
+  <TBODY>
+  <TR>
+    <TD vAlign=top>
+      <H2>Clock doubling in the CPU</H2></TD>
+    <TD width=200>
+      <DIV align=right>
+      <H3><A 
+      href="http://www.mkdata.dk/click/module3b1.htm#top">[top]</A></H3></DIV></TD></TR></TBODY></TABLE>
+<DIV class=igen>The problem with the high clock frequencies is to ensure that 
+other electronic components keep up with the pace. It is rather simple to make 
+data move very fast inside a chip where the print tracks are microscopic. But 
+when we move outside the chip, other problems appear. The other components must 
+be able to keep up with the pace. When the frequency gets too high, the circuit 
+board print tracks start acting as antennae and various forms of "radio noise" 
+appears. Briefly, it becomes expensive to make the rest of the hardware to keep 
+up with these high frequencies. 
+<P>The solution to this problem was to split the clock frequency in two: 
+<UL>
+  <LI>A high internal clock frequency, which governs the pace of the CPU. 
+  <LI>A lower external clock frequency, which governs the pace on the system 
+  bus. This is where the CPU exchanges data with RAM and the I/O units. 
+</LI></UL>Intel's 80486DX2 25/50 MHz was the first chip with clock doubling. It 
+was introduced in 1992 with great potential. For a lower price you could acquire 
+a chip, which provided 90% of the 486DX50 performance. The DX50 ran at 50 MHz 
+both internally and externally. The DX2 ran at just 25 MHz on the system bus. 
+This enabled lower cost motherboards. Also RAM speed demands were lower. 
+<P><IMG src="6_files/_948.gif" vspace=20 NOSAVE> 
+<P>
+<P>Clock doubling occurs inside the CPU. If the motherboard crystal works at 25 
+MHz, the CPU will receive a signal every 40 nanosecond (ns). Internally in the 
+CPU, this frequency is doubled to 50 MHz. Now the clock ticks every 20 ns inside 
+the CPU. This frequency governs all internal transactions, including <I>integer 
+unit</I>, <I>floating point unit</I>, and all <I>memory management unit</I> 
+operations as well as others. The only area still working at 25 MHz are external 
+data transfers. That is transfers to RAM, BIOS and the I/O ports. 
+<P>The speed problem is also connected to the RAM. The ordinary FPM RAM and EDO 
+RAM can functioned at a maximum of 66 MHz (possibly 75 MHz). Therefore, Pentium 
+and similar CPUs were "clocked up" with factors from 2 to 5 internally. 
+<P>In 1998 the PC100 RAM was introduced together with new motherboards and chip 
+set. This RAM works at 100 MHz, and using the clock factors 3.5, 4 and 4.5 we 
+had CPUs running at 350, 400 and 450 MHz. 
+<P>The Intel CPUs Pentium II, Celeron, and Pentium III can operate with clock 
+factors of up to 8. With <A 
+href="http://www.mkdata.dk/click/module2e3.htm">PC133 RAM, DDR and RAMBUS</A> we 
+shall see clock frequencies like 1066 MHz and 1400 MHz and above. 
+<P>With modern chip set designs like <A 
+href="http://www.mkdata.dk/click/module2d13a.htm">i815</A> the internal clock 
+frequency operates independantly of the FSB (front side bus) connecting the CPU 
+to the north bridge of the chip set. Hence we do not need to talk about clock 
+doubling anymore. 
+<P>Please also read <A href="http://www.mkdata.dk/click/module3d1.htm">Module 
+3d</A> for more about clocking. 
+<P><!--Begin Engage Media Ad Copyright 1999 Engage Media. 
+    All rights reserved. Patent Pending -->
+<SCRIPT language=JAVASCRIPT>
+    <!--
+    FlycastSite	= "ClickLearn";
+    FlycastPage	= "hardware2";
+    FlycastWidth	= 468;
+    FlycastHeight	= 60;
+    FlycastPrintTag	= true;
+    FlycastNewAd	= true;
+    FlycastEnableTargetWindow	= false;
+    FlycastKeyword	= "";
+    FlycastLoaded	= false;
+    FlycastVersion	= 3.6;
+    //-->
+    </SCRIPT>
+
+<SCRIPT language=JAVASCRIPT src="6_files/Version3"></SCRIPT>
+
+<SCRIPT language=JAVASCRIPT>
+    <!--
+	if (!FlycastLoaded) document.write('<A target="_top" HREF="http://ad-adex3.flycast.com/server/click/ClickLearn/hardware2/123"><IM' + 'G WIDTH=468 HEIGHT=60 BORDER=0 SRC="http://ad-adex3.flycast.com/server/ad/ClickLearn/hardware2/123"></A>');
+    //-->
+    </SCRIPT>
+<NOSCRIPT><IFRAME frameBorder=0 height=60 marginHeight=0 marginWidth=0 
+scrolling=no src="6_files/acc_random=951395997270.htm" 
+width=468>
+	<A target="_top" HREF="http://ad-adex3.flycast.com/server/click/ClickLearn/hardware2/123"><IMG BORDER=0 WIDTH=468 HEIGHT=60 SRC="http://ad-adex3.flycast.com/server/img/ClickLearn/hardware2/123"></A>
+	</IFRAME></IFRAME></NOSCRIPT><!--End Engage Media Ad Copyright 1999 Engage Media. All rights reserved. Patent Pending -->
+<P>
+<HR>
+
+<P>
+<TABLE bgColor=#c0c0c0 border=0 cellPadding=5 cellSpacing=0 cols=2 
+  width="80%"><TBODY>
+  <TR>
+    <TD vAlign=top>
+      <H2>Learn more</H2></TD>
+    <TD width=200>
+      <DIV align=right>
+      <H3><A 
+      href="http://www.mkdata.dk/click/module3b1.htm#top">[top]</A></H3></DIV></TD></TR></TBODY></TABLE>
+<P>
+<DIV class=igen><A href="http://www.mkdata.dk/click/module3b2.htm">Next page</A> 
+
+<P><A href="http://www.mkdata.dk/click/module3a3.htm">Previous page</A>
+<P>Also see <A href="http://www.mkdata.dk/click/module3c1.htm">Module 3c</A> 
+about the 5th generations CPUs (Pentiums etc.) 
+<P>Click for <A href="http://www.mkdata.dk/click/module3d1.htm">Module 3d</A> 
+about the clock frequencies 
+<P>Click for <A href="http://www.mkdata.dk/click/module3e01.htm">Module 3e</A> 
+about 6th generations CPUs (Pentium IIs etc.) 
+<P>
+<TABLE bgColor=#c0c0c0 cellPadding=0 cellSpacing=0>
+  <TBODY>
+  <TR>
+    <TD vAlign=top>
+      <TABLE bgColor=#c0c0c0 cellPadding=9 cellSpacing=0>
+        <TBODY>
+        <TR>
+          <TD vAlign=top>
+            <CENTER><A href="http://www.mkdata.dk/click/index.htm" 
+            target=_parent>[Main page]</A></CENTER></TD>
+          <TD vAlign=top>
+            <CENTER><A 
+          href="mailto:ClickAndLearn@mkdata.dk">[Mail]</A></CENTER></TD>
+          <TD vAlign=top>
+            <CENTER><A 
+            href="http://www.mkdata.dk/click/dictionary/index.htm">[Karbo's 
+            Dictionary]</A></CENTER></TD>
+          <TD vAlign=top><A 
+            href="http://www.mkdata.dk/click/w98/index.htm">[The Windows 98 
+            page]</A></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE>
+<DIV class=igen>
+<P>
+<P>Copyright (c) 1996-2000 by Michael B. Karbo. www.karbosguide.com. <IMG 
+height=18 hspace=3 src="6_files/Count.gif" width=50 NOSAVE>
+<SCRIPT language=JavaScript>
+<!--//hide script from old browsers
+document.write( "<I>Last edition "+ document.lastModified +"</I>");
+//end hiding contents -->
+</SCRIPT>
+ 
+<P><!-- BEGIN RICH-MEDIA BURST! CODE -->
+<SCRIPT language=JavaScript> 
+<!-- /* © 1997-1999 BURST! Media, LLC. All Rights Reserved.*/ 
+var TheAdcode = 'ba7445a'; 
+var bN = navigator.appName; 
+var bV = parseInt(navigator.appVersion); 
+var base='http://www.burstnet.com/'; 
+var Tv=''; 
+var agt=navigator.userAgent.toLowerCase(); 
+if (bV>=4) 
+{ts=window.location.pathname+window.location.search; 
+i=0; Tv=0; while (i< ts.length) 
+{ Tv=Tv+ts.charCodeAt(i); i=i+1; } Tv="/"+Tv;} 
+else {Tv=escape(window.location.pathname); 
+if( Tv.charAt(0)!='/' ) Tv="/"+Tv; 
+else if (Tv.charAt(1)=="/") Tv=""; 
+if( Tv.charAt(Tv.length-1) == "/") 
+Tv = Tv + "_";} 
+if (bN=='Netscape'){ 
+if ((bV>=4)&&(agt.indexOf("mac")==-1)) { document.write('<s'+'cript src="'+ base+'cgi-bin/ads/'+TheAdcode+'.cgi/RETURN-CODE/JS'+Tv+'">'); 
+document.write('</'+'script>'); } 
+else if (bV>=3) {document.write('<' +'a href="'+base+'ads/'+ TheAdcode+'-map.cgi'+Tv+'"target=_top>'); 
+document.write('<img src="' + base + 'cgi-bin/ads/' + TheAdcode + '.cgi' + Tv + '" ismap width="468" height="60"' + ' border="0" alt="Click Here"></a>');} 
+} 
+if (bN=='Microsoft Internet Explorer') 
+document.write('<ifr'+'ame id="BURST" src="'+base+'cgi-bin/ads/' + 
+TheAdcode + '.cgi' + Tv + '/RETURN-CODE" width="468" height="60"' + 
+'marginwidth="0" marginheight="0" hspace="0" vspace="0" ' + 
+'frameborder="0" scrolling="no"></ifr'+'ame>'); // --> 
+</SCRIPT>
+<NOSCRIPT><A href="http://www.burstnet.com/ads/ba7445a-map.cgi" target=_top><IMG 
+alt="Click Here" border=0 height=60 src="6_files/ace_ad1.gif" width=468></A> 
+</NOSCRIPT><!-- END BURST CODE --></P></DIV></DIV></DIV></DIV></DIV></DIV></BODY></HTML>

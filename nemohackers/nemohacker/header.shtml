@@ -1,0 +1,66 @@
+<LINK REL=stylesheet TYPE="text/css" HREF="style.css" TITLE="syle">
+<script>
+function NoError() {
+return(true);
+} 
+onerror=NoError; 
+</script>
+</HEAD>
+<BODY BACKGROUND="images/back1.gif" ALINK="#ccff00" BGCOLOR="#121212" LINK="#828fb0" TEXT="#DDDDDD" VLINK="#828fb0">
+
+<BR>
+<CENTER>
+<!--------top------------->
+<TABLE BORDER=0 CELLPADDING=0 CELLSPACING=0 WIDTH=750 HEIGHT=5>
+<TR BGCOLOR="#024070" HEIGHT=5>
+<TD HEIGHT=5><!---links here ---->
+<CENTER>
+<A HREF="http://www.boxnetwork.net/"><B>
+<SPAN CLASS=small><FONT COLOR="#ffffff" FACE="Verdana">Recommended</FONT></SPAN></B></A> 
+<SPAN CLASS=small><B><FONT COLOR=#ffffff FACE="Verdana"> </FONT>
+<FONT FACE="Verdana">
+<A HREF="http://www.elitehackers.com"> Elitehackers</A> 
+- <A HREF="http://www.box.sk"> box.sk</A> 
+- <A HREF="http://www.hack3r.com"> Hack3r</A>
+- <A HREF="http://www.linuxdocs.com"> linuxdocs</A>
+- <A HREF="http://www.Immortal-X.net"> Immortal-X</A>
+- <A HREF="http://www.freshmeat.net"> Freshmeat </A>
+- <A HREF="http://www.blackcode.com"> blackcode</A>
+</FONT></B></SPAN></CENTER></TD></TR></TABLE>
+
+
+<TABLE BGCOLOR=#000000 BORDER=0 CELLPADDING=0 CELLSPACING=0 WIDTH=750><TR>
+<TD WIDTH="508"><img src="images/logo.jpg" WIDTH="506" HEIGHT="71"></TD>
+<TD WIDTH="30" VALIGN="top"><DIV ALING="right"><img src="images/flame.gif" BORDER="0"></DIV>
+</TD>
+
+<TD WIDTH="120" VALIGN="top"><CENTER><BR>
+<B CLASS="my">
+<A  HREF="javascript:void()" ONCLICK="javascript:window.external.addFavorite('http://www.nemohackers.com/','[[ Nemohackers ]]')">Bookmark site</A>
+<BR>
+<A HREF="javascript:void()"
+ONCLICK="this.style.behavior='url(#default#homepage)';this.setHomePage('http://www.nemohackers.com/');">
+Make Homepage</A>
+<BR>
+
+
+</CENTER>
+</TD>
+
+<TD WIDTH="30" VALIGN="top">
+<DIV ALING="left"><img src="images/flame.gif" BORDER="0"></DIV>
+</TD></TR></TABLE>
+
+
+
+<TABLE BGCOLOR=#000000 BORDER=0 CELLPADDING=0 CELLSPACING=0 WIDTH=750 HEIGHT=2>
+<TR BGCOLOR="#024070" HEIGHT=2><TD BGCOLOR="#024070" HEIGHT=2></TD></TR></TABLE> 
+
+<TABLE BGCOLOR=#000000 BORDER=0 CELLPADDING=0 CELLSPACING=0 WIDTH=750><TR><TD>
+<FONT CLASS="upper" COLOR="#cdcddc" FACE="Verdana" SIZE="1"><B>
+&nbsp;Knowledge and Infomation will set you free<BR>
+&nbsp;
+/<a href="http://64.255.193.179/~nemo/index.shtml">&nbsp;home&nbsp;</a>/&nbsp;
+<a href="http://64.255.193.179<!--#ECHO VAR="DOCUMENT_URI" -->"><!--#ECHO VAR="DOCUMENT_NAME" --></a>&nbsp;/ 
+
+

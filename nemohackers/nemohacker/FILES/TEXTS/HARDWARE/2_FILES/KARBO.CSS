@@ -1,0 +1,30 @@
+H1 {
+	COLOR: teal; FONT-FAMILY: Arial, Helvetica; FONT-SIZE: 16pt; FONT-STYLE: normal; FONT-WEIGHT: bold; LINE-HEIGHT: 24pt; MARGIN-LEFT: 0%; MARGIN-RIGHT: 0%
+}
+H2 {
+	COLOR: maroon; FONT-FAMILY: Arial, helvetica; FONT-SIZE: 15pt; FONT-STYLE: italic; LINE-HEIGHT: 22pt; MARGIN-LEFT: 0%; MARGIN-RIGHT: 0%
+}
+H3 {
+	COLOR: maroon; FONT-FAMILY: Arial, Helvetica; FONT-SIZE: 11pt; FONT-STYLE: normal; FONT-WEIGHT: bold; LINE-HEIGHT: 14pt
+}
+TD {
+	FONT-FAMILY: Arial, Helvetica; FONT-SIZE: 9pt
+}
+TT {
+	COLOR: black; FONT-FAMILY: courier; FONT-SIZE: 10pt
+}
+LI {
+	COLOR: navy; FONT-FAMILY: Arial, Helvetica; FONT-SIZE: 10pt; FONT-STYLE: normal; LINE-HEIGHT: 16pt; LIST-STYLE: square
+}
+P {
+	COLOR: navy; FONT-FAMILY: Arial, Helvetica; FONT-SIZE: 10pt; FONT-STYLE: normal; FONT-WEIGHT: 400
+}
+DIV.normal {
+	COLOR: navy; FONT-FAMILY: Arial, Helvetica; FONT-SIZE: 10pt; FONT-STYLE: normal; FONT-WEIGHT: 400; MARGIN-LEFT: 10%; MARGIN-RIGHT: 10%
+}
+DIV.igen {
+	COLOR: navy; FONT-FAMILY: Arial, Helvetica; FONT-SIZE: 10pt; FONT-STYLE: normal; FONT-WEIGHT: 400
+}
+A:hover {
+	COLOR: #ff0000; FONT-WEIGHT: bold
+}

@@ -1,0 +1,164 @@
+The Overclocking Mini-Tutorial / written by yours truly, R a v e N (blacksun.box.sk)
+<=====================================================================================> version 1.6, 3/7/99
+
+Note: whenever you see something like this: blah(1) it means that if you don't understand the meaning of the word blah there's an explanation about it just for you, located on the newbies corner on section 1.
+Note 2: if you're having a hard time reading this page because you have to scroll to the right whenever a long line comes, it's probably because you're not using "word wrapping".
+Most UNIX text editors and advanced Windows editors (and some less advanced ones like Wordpad) do this by themselves.
+To do word wrapping on Microsoft Notepad, simply go to Edit and then click on "Word wrapping".
+
+Author's notes
+==============
+If you have any comments or questions regarding this file (no flames(9) or spam, please) Email me at barakirs@netvision.net.il.
+Visit blacksun.box.sk for more tutorials, free hacking/programming/unix books to download and much more.
+Note: if you're having a hard time reading this file because of the horizontal scrolling bar, turn word wrapping on.
+
+Disclaimer
+==========
+We do not encourage any kinds of illegal activities. If you believe that breaking the law is a good way to impress someone, please stop reading now and grow up. There is nothing impressive or cool in being a criminal.
+
+Content
+=======
+What is Overclocking?
+* What is the Meaning of the Word Overclocking?
+* How Can I Benefit From Overclocking My Hardware
+* How Can I Overclock My CPU(1)/Video Card/Other?
+How Dangerous is This Whole Thing?
+* Can Iverclocking Fry Up My Computer?
+* Safety Warnings
+* Possible Side Effects and How to Avoid them
+Advanced Tips and Tricks
+* Advanced Tips and Tricks for Making Your Overclocking More Efficient
+More Information on Speeding Up Your Computer
+* Where to Find More Information on Speeding Up Your Computer
+Notes About 3D Accelerators
+* How do I Overclock My 3D Accelerator?
+Newbies corner
+* What is a CPU
+* What is a BUS
+* What is a MHZ
+* What are Jumpers
+* What is the CMOS Chip
+* What is the Cache Chip*
+* What is the RAM Chip
+* What is a URL
+* What is flaming
+Other Tutorials
+* FTP Tutorial
+* RM Networks Tutorial
+* Ad and Spam Blocking Tutorial
+* Sendmail Tutorial
+* DoS Attacks Tutorial
+* IRC Warfare Tutorial
+* Phreaking Tutorial
+
+Bibliography
+
+* Plus what is disk cache on browsers and on several operating systems
+
+What is Overclocking?
+---------------------
+Overclocking is a cool way of making your CPU, video card (monitor card), 3D accelerator and some other kinds of hardware run faster and give better performance for free! (Intel's worst nightmare! MWHAHAHAHAHA!!!)
+During this tutorial I will teach you how to overclock your CPU, but you can use this information to overclock other kinds of hardware on your PC.
+Now, your CPU speed is based on two factors - your BUS(2) speed and your clock speed (mine is 1 second per second... just kidding. I don't mean a standard clock, like one you can tell time out of. Read on and you'll understand).
+Example: The BUS speed on older computers (let's take a Pentium I 166MHZ(3) as an example) is about 66MHZ. 166, the CPU speed, divided by 66, the BUS speed, gives you about 2.5, meaning your clock speed is about 2.5.
+Simple, huh? BUS speed X clock speed = CPU speed.
+Now, what exactly is overclocking and how do I do it?
+
+Materials
++++++++++
+1. The little booklet you were supposed to received together with your CPU.
+2. A screwdriver (better be a Philips screwdriver).
+3. A metal plier with a rubber/plastic handle or a bunch of fingers (better be your fingers... oh, and when I said a bunch of fingers, I've meant at least 5, all of them attached to a living hand (better be yours). Undeads are also welcome).
+4. A calculator / a brain.
+
+A) Open your computer using your trusty screwdriver.
+B) Look at the little booklet you have and find the part about the jumpers(4) board and read.
+C) Use the plier or the fingers to change the jumpers array so you will receive the clock speed you are interested in. Oh yeah, and try not to step on your CMOS chip(5) or on your Cache chip(6).
+
+Note: newer CPUs are "Clock Locked", meaning you cannot change their clock speed, but you can still change their BUS speed... ;)
+Changing the BUS speed is similar to changing the clock speed (read the part on your booklet about the jumpers).
+
+How Dangerous is This Whole Thing?
+----------------------------------
+Well, you CAN fry your modem, but it all depends on you.
+If you screw up and step on things, spill coffee over your computer or overclock your CPU too much (see Advanced Tips), don't come back crying to me.
+
+Possible Side Effects:
+**********************
+1) Your computer won't start: this probably means you have overclocked your computer too much. Lower your CPU speed a bit and then try again.
+2) Your OS won't start (or crash very frequently) or your computer will reboot itself randomly etc': open your computer, find the jumper that changes the CPU Voltage (the CPU Voltage is usually something that fits into this pattern: 2.x, when x can be any number) and increase the voltage a bit on every time.
+Remember to increase your CPU Voltage as little as you can. The maximum is "VOLT 2.30".
+If your computer still gives you problems then do a little less overclocking and it should be fine.
+3) Overclocking your CPU might increase it's temperature and decrease it's life span. Don't worry about that, experts claim that during the year 2,000 we will replace our CPU once every 6 months and this will become more frequent during the years so you've got nothing to worry about.
+
+How to Avoid these Side Effects:
+********************************
+1) Attach another fan or a "Heat Sink" to your CPU. It shouldn't cost much (a couple of bucks, maybe) and the outcomes would amaze you (For example: using a device that cools your CPU to -20 Celsius degrees you can turn a Celeron 300A into a 633MHZ CPU).
+2) Place your computer where you won't block it's air ways.
+3) There are programs like CPUIdle (URL(7) to download: http://www.geocities.com/SiliconValley/Monitor/6990/cpuidle.zip) that can shut down your CPU while it's not in use. These actions can decrease the temperature of your CPU, and it can even increase your CPU's life span.
+Note: CPUIdle only works on Windows, since it is "Built-In" on other OSs (see CPUIdle's documentations).
+
+Statistically Speaking, How Safe is this?
+*****************************************
+Very safe. Out of tens of thousands of overclockers in the world, only a very few got some of their hardware fried up (and who says it's because of the overclocking anyway?), and those guys didn't listen to the safety warnings (they overclocked their CPU too much, increased the CPU Voltage too much etc').
+
+Is it Worth the Trouble?
+************************
+DUH!!! Of course it is! Do the math yourself.
+
+More Info on Speeding Up Your Computer
+--------------------------------------
+Try the "Modem Speedup" section at blacksun.box.sk.
+
+How do I Overclock My 3D Accelerator?
+-------------------------------------
+Overclocking 3D accelerators is pretty much like overclocking CPUs, only you have to take one factor into consideration... your CPU speed.
+You see, the speed your 3D accelerator works depends on your CPU. The 3D accelerator cannot work faster than the CPU, since some vital 3D calculations are done by it, hence the accelerator cannot continue without these calculations.
+If your CPU's speed is lower than 400MHZ, I advise you not to overclock your 3D accelerator. Go overclock your CPU and then overclock your 3D card!! HAHAHA!!
+
+Newbies Corner
+--------------
+1. CPU - Central Processing Unit. A little chip that does all of your calculations (besides graphical calculations, which are mostly done by video cards or 3D accelerators, but they all work according to a "blueprint" given to them by the CPU).
+
+2. BUS - BUSsed aren't yellow and they don't have a sing saying "school BUS" beside them.
+BUSses are little electronic connections which send out electric pulses from different pieces of hardware on your computer to other pieces of hardware.
+Without the BUSses your CPU, sound/monitor/modem cards, RAM chip etc' won't be able to communicate with each other.
+
+3. MHZ - Mega Hertz. To make a long story short, this is the speed of your CPU.
+
+4. Jumpers - they're inside your computer, they look like tiny little plastic squares and they usually have 2 or more little metal pieces which send electricity from one side to the other (unless they're broken).
+They are usually sitting there next to each other. Oh yeah, and they taste bad, so don't try eating any of those.
+
+5. CMOS Chip - Complementary Metal Oxide Semiconductor. The little chip that stores some of your computer's most basic configuration.
+
+6. Cache Chip - when your CPU feels like accessing a memory segment, it can either read it from the RAM chip(8) or from the cache chip.
+The cache chip is much faster than the RAM chip, which usually has the speed of 66MHZ (at the time this tutorial was written).
+The cache chip works this way:
+A) Your CPU wants to access some kind of data which is not stored on your Hard Drive, on a CD, on a diskette etc' (read section 8 of the Newbies Corner first). Common sense says it should head to the RAM chip, right?
+B) No, sir! First the CPU looks up that data on the cache chip. The cache chip is much faster than the RAM chip and it is located closer to the CPU, and it contains the most recent pieces of data the CPU retrieved from the RAM chip.
+C) If the data was found on the cache chip, hurray! The CPU may now proceed with it's actions. Final outcome: the CPU saved a lot of time.
+D) If the data was not found on the cache chip, the CPU will head off to the RAM chip. Final outcome: the CPU wasted very very little time.
+Note: while your RAM can contain 32MB (MegaBytes), 64MB, 128MB (currently not present on any home PC) or 256MB (see 128MB), but the cache size will vary from 256K to 516K, when 1024K = 1MB (again, this info is relevant to the time this tutorial was written).
+Note 2: if you played around a little with your Internet browser and found out that your browser has it's own cache memory, let me explain.
+Your browser has what is called "Disk Cache" - it caches Internet files (HTML files, pictures etc') on your hard drive so next time you will access those files it will only have to check if there is a newer version of them, and if not it will load them from the cache. If there is a newer version of these files they will be redownloaded and the disk cache will be updated.
+It is possible to disable the disk cache or limit it to a specific space (Example: don't cache anymore than 30MB. Example2: don't cache at all).
+Note 3: several Operating Systems have disk cache too, which is similar to your browser's disk cache (but has nothing to do with the net. Well, most of the time...).
+
+7. URL - Universal Resource Locator - an Internet address.
+
+8. RAM Chip - a chip that stores data which is not saved on your hard drive, CDs, diskettes etc' (temporary data used by programs and/or games).
+
+9. Flames - the action of flaming someone (send him angry mail about things he has done, opinions he has etc' which you do not agree with).
+
+Other Tutorials
+---------------
+FTP Hacking.
+RM Networks Hacking.
+Ad and Spam Blocking.
+Sendmail (creating fake mails and hacking servers that run Sendmail).
+Get them all at blacksun.box.sk, or join the mailing list at blacksunresearch.listbot.com.
+
+Bibliography
+------------
+http://www.hacker.co.il (in Hebrew)
+PC Magazine - http://www.pcmagazine.com

@@ -1,0 +1,8 @@
+<font face="Verdana, Helvetica" size=1>
+<a href="index.php">Homepage</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+<a href="modules.php">Learn</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+<a href="tools.php">Online Tools</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+<a href="archives.php">Archives</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+<a href="http://forum.nemohackers.com">Forum</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+<a href="hyperlinks.php">Hyperlinks</a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</font>

@@ -1,0 +1,475 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=(0039)http://www.mkdata.dk/click/module3a.htm -->
+<HTML><HEAD><TITLE>An illustrated Guide to CPUs from 8086 to Pentium-III</TITLE>
+<META content="text/html; charset=windows-1252" http-equiv=Content-Type>
+<META content="Michael B. Karbo" name=Author>
+<META 
+content="An illustrated Guide to CPUs from 8086 to Pentium-II. Inside the CPU. Intel 8086. CISC, RISC and MMX. For teachers, students and self-study." 
+name=Description>
+<META 
+content="CPU, 8086 compatible, IA-32, CISC, RISC, FPU, IA-64, MMX, Pentium-II, Deschutes, Katmai" 
+name=KeyWords><!--
+An illustrated Guide to CPUs from 8086 to Pentium-II. Inside the CPU. Intel 8086. CISC, RISC and MMX. For teachers, students and self-study.
+An illustrated Guide to CPUs from 8086 to Pentium-II. Inside the CPU. Intel 8086. CISC, RISC and MMX. For teachers, students and self-study.
+An illustrated Guide to CPUs from 8086 to Pentium-II. Inside the CPU. Intel 8086. CISC, RISC and MMX. For teachers, students and self-study.
+--><LINK 
+href="5_files/karbo.css" rel=StyleSheet type=text/css>
+<META content="MSHTML 5.00.2614.3500" name=GENERATOR></HEAD>
+<BODY bgColor=#ffffff><A name=top></A><A 
+href="http://maximumpcads.imaginemedia.com/cgi-bin/accipiter/AdClick.exe/AREA=PC.KARBOSGUIDE"><IMG 
+height=60 src="5_files/defaseng.gif" width=468></A> 
+<DIV class=normal>
+<H2>Click &amp; Learn. Module 3a. WWW.MKDATA.DK</H2>
+<H1>About CPUs</H1>To understand the data processing methodology, an 
+understanding of the design and function of the CPU is essential. The following 
+subjects will be covered on these pages. They are divided in several sub 
+modules, which ought to be read as a unit. 
+<HR>
+
+<TABLE align=center border=0 cellPadding=0 cellSpacing=0 width="80%">
+  <TBODY>
+  <TR>
+    <TD align=left vAlign=center>
+      <UL>
+        <LI>
+        <DIV class=igen><U><A 
+        href="http://www.mkdata.dk/click/module3a.htm#CPU___oversigt">Brief CPU 
+        review from 1st to 6th generation</A></U> </DIV>
+        <LI><U><A href="http://www.mkdata.dk/click/module3a.htm#CPU">What is a 
+        CPU?</A></U> 
+        <LI><U><A href="http://www.mkdata.dk/click/module3a.htm#8086komp">8086 
+        compatability</A></U> 
+        <LI><U><A 
+        href="http://www.mkdata.dk/click/module3b.htm#CPU_forbedringer">The CPU 
+        improvements</A></U> 
+        <LI><U><A 
+        href="http://www.mkdata.dk/click/module3b.htm#Klokdoblingen_i_CPU_en">About 
+        clock doubling</A></U> 
+        <LI><U><A href="http://www.mkdata.dk/click/module3b.htm#Cache_RAM">Cache 
+        RAM</A></U> 
+        <LI><U><A 
+        href="http://www.mkdata.dk/click/module3b.htm#CPU_Udviklingsområder">The 
+        CPU – areas of development</A></U> 
+        <LI><U><A 
+        href="http://www.mkdata.dk/click/module3b.htm#CPU_hastigheder">The CPU – 
+        speed measurements</A></U> 
+        <LI><U><A 
+        href="http://www.mkdata.dk/click/module3b.htm#CPU_skiftene_historisk">CPU 
+        changes - historic review of 286, 386, 486</A></U> 
+        <LI><U><A 
+        href="http://www.mkdata.dk/click/module3c.htm#Pentium">Pentium</A></U> 
+        <LI><U><A href="http://www.mkdata.dk/click/module3c.htm#MMX">MMX</A></U> 
+
+        <LI><U><A href="http://www.mkdata.dk/click/module3c.htm#6X86">Cyrix 
+        6X86</A></U> 
+        <LI><U><A href="http://www.mkdata.dk/click/module3e01.htm#ppro">Pentium 
+        Pro</A></U> 
+        <LI><U><A href="http://www.mkdata.dk/click/module3e02.htm">Pentium 
+        II</A></U> 
+        <LI><A href="http://www.mkdata.dk/click/module3e10.htm#sockets">CPU 
+        sockets and chip set</A> 
+        <LI><U><A 
+        href="http://www.mkdata.dk/click/module3c.htm#Various notes about">Miscellaneous 
+        notes about CPUs</A></U> 
+        <LI><U><A href="http://www.mkdata.dk/click/module3d1.htm">Clocking and 
+        over clocking</A></U> 
+        <LI>And a lot more... </LI></UL></TD>
+    <TD align=left vAlign=center><A 
+      href="http://maximumpcads.imaginemedia.com/cgi-bin/accipiter/AdClick.exe/AREA=PC.KARBOSGUIDE.SPONSOR"><IMG 
+      height=90 src="C:\Misc\Texts\Hardware\5_files\defaseng(1).gif" width=120> 
+      </A>
+      <P><IMG height=296 src="5_files/u1981.gif" vspace=20 width=300 NOSAVE> 
+    </P></TD></TR></TBODY></TABLE>You should read modules 2a, 2b, 2c, 2d, and 2e one 
+after another. 
+<P>
+<HR>
+
+<TABLE border=0 cols=2 width="80%">
+  <TBODY>
+  <TR>
+    <TD>
+      <H2>What is a CPU?</H2></TD>
+    <TD width=200>
+      <DIV align=right>
+      <H3><A 
+      href="http://www.mkdata.dk/click/module3a.htm#top">[top]</A></H3></DIV></TD></TR></TBODY></TABLE>
+<DIV class=igen>The CPU is certainly the most important PC component. CPU stands 
+for <I>Central Processing Unit</I>. Let us briefly study that name: 
+<UL>
+  <LI>It is a processor, because it processes (moves and calculates) <A 
+  href="http://www.mkdata.dk/click/module1a.htm">data</A>. 
+  <LI>It is central, because it is the center of PC data processing. 
+  <LI>It is a unit, because it is a chip, which contains millions of 
+  transistors. </LI></UL>
+<H3>Speed, speed, speed</H3>Without the CPU, there would be no PC. Like all 
+other hardware components, the CPUs are continually undergoing further 
+development. You can see the explosive technological development in data 
+processing most clearly in the development of newer and faster CPUs. The CPUs 
+have for years doubled their performance about every 18 months (<A 
+href="http://www.mkdata.dk/click/module3c.htm#moore">Moore's Law</A>), and there 
+are no indications that this trend will stop. 
+<P>When we now look at all the CPUs from a broader perspective, we can see that: 
+
+<UL>
+  <LI>The CPU history is closely tied to the companies IBM and especially 
+  <I>Intel</I>. 
+  <LI>The CPUs have their roots back to Intel's chip <I>4004</I> from 1971. 
+  <LI>You can identify seven or eight CPU generations up till today. 
+  <LI>The <I>compatability </I>concept has been important throughout the 
+  development. </LI></UL><A name=CPU___oversigt></A>
+<P>
+<TABLE border=0 cols=2 width="80%">
+  <TBODY>
+  <TR>
+    <TD>
+      <H2>CPUs - brief review</H2></TD>
+    <TD width=200>
+      <DIV align=right>
+      <H3><A 
+      href="http://www.mkdata.dk/click/module3a.htm#top">[top]</A></H3></DIV></TD></TR></TBODY></TABLE>
+<DIV class=igen>CPU history starts in 1971, when a small unknown company, Intel, 
+for the first time combined multiple transistors to form a <I>central processing 
+unit</I> - a chip called Intel 4004. However, it was 8 years before the first PC 
+was constructed. 
+<P>PCs are designed around different CPU generations. Intel is not the only 
+company manufacturing CPUs, but by far the leading one. The following table 
+shows the different CPU<I> generations</I>. They are predominantly Intel chips, 
+but in the 5th generation we see alternatives: 
+<P>
+<TABLE bgColor=#ffff00 border=1 borderColor=#000000 cellPadding=5>
+  <TBODY>
+  <TR>
+    <TD align=middle vAlign=top>PC</TD>
+    <TD align=middle noWrap vAlign=top>CPUs</TD>
+    <TD align=middle vAlign=top>Year</TD>
+    <TD vAlign=top>
+      <CENTER>Number</CENTER>
+      <CENTER>of transistors</CENTER></TD></TR>
+  <TR>
+    <TD align=left vAlign=top>1st. Generation</TD>
+    <TD align=middle noWrap vAlign=top>8086 and 8088</TD>
+    <TD align=middle vAlign=top>1978-81</TD>
+    <TD vAlign=top>
+      <CENTER>29,000</CENTER></TD></TR>
+  <TR>
+    <TD vAlign=top><LEFT>2nd. Generation</LEFT> </TD>
+    <TD align=middle noWrap vAlign=top>80286</TD>
+    <TD align=middle vAlign=top>1984</TD>
+    <TD vAlign=top>
+      <CENTER>134,000</CENTER></TD></TR>
+  <TR>
+    <TD vAlign=top <CENTER>3rd. Generation
+      <CENTER></CENTER></TD>
+    <TD align=middle noWrap vAlign=top>80386DX and 80386SX</TD>
+    <TD align=middle vAlign=top>1987-88</TD>
+    <TD vAlign=top>
+      <CENTER>275,000</CENTER></TD></TR>
+  <TR>
+    <TD vAlign=top <CENTER>4th. Generation
+      <CENTER></CENTER></TD>
+    <TD align=middle noWrap vAlign=top>80486SX, 80486DX, <BR>80486DX2 and 
+      80486DX4</TD>
+    <TD align=middle vAlign=top>1990-92</TD>
+    <TD vAlign=top>
+      <CENTER>1,200,000</CENTER></TD></TR>
+  <TR>
+    <TD vAlign=top <CENTER>5th. Generation
+      <CENTER></CENTER></TD>
+    <TD align=middle noWrap vAlign=top>Pentium <BR>Cyrix 6X86 <BR>AMD K5 
+      <BR>IDT WinChip C6</TD>
+    <TD align=middle vAlign=top>
+      <CENTER>1993-95</CENTER>
+      <CENTER>1996</CENTER>
+      <CENTER>1996</CENTER>
+      <CENTER>1997</CENTER></TD>
+    <TD vAlign=top>
+      <CENTER>3,100,000</CENTER>
+      <CENTER>--</CENTER>
+      <CENTER>--</CENTER>
+      <CENTER>3,500,000</CENTER></TD></TR>
+  <TR>
+    <TD vAlign=top>
+      <CENTER>Improved</CENTER>
+      <CENTER>5th. Generation</CENTER></TD>
+    <TD align=middle noWrap vAlign=top>Pentium MMX <BR>IBM/Cyrix 6x86MX 
+      <BR>IDT WinChip2 3D</TD>
+    <TD>
+      <CENTER>1997</CENTER>
+      <CENTER>1997</CENTER>
+      <CENTER>1998</CENTER></TD>
+    <TD align=left>
+      <CENTER>4,500,000</CENTER>
+      <CENTER>6,000,000</CENTER>
+      <CENTER>6,000,000</CENTER></TD></TR>
+  <TR>
+    <TD vAlign=top <CENTER>6th. Generation
+      <CENTER></CENTER></TD>
+    <TD align=middle noWrap vAlign=top>Pentium Pro <BR>AMD K6 <BR>Pentium II 
+      <BR>AMD K6-2</TD>
+    <TD align=middle vAlign=top>
+      <CENTER>1995</CENTER>
+      <CENTER>1997</CENTER>
+      <CENTER>1997</CENTER>
+      <CENTER>1998</CENTER></TD>
+    <TD vAlign=top>
+      <CENTER>5,500,000</CENTER>
+      <CENTER>8,800,000</CENTER>
+      <CENTER>7,500,000</CENTER>
+      <CENTER>9,300,000</CENTER></TD></TR>
+  <TR>
+    <TD vAlign=top <CENTER>Improved 6th. Generation
+      <CENTER></CENTER></TD>
+    <TD align=middle noWrap vAlign=top>Pentium III <BR>AMD K6-3</TD>
+    <TD align=middle vAlign=top>1999 <BR>1999</TD>
+    <TD vAlign=top>
+      <CENTER>?</CENTER></TD></TR>
+  <TR>
+    <TD vAlign=top <CENTER>7th. Generation
+      <CENTER></CENTER></TD>
+    <TD align=middle noWrap vAlign=top>AMD K7 Athlon</TD>
+    <TD align=middle vAlign=top>1999/2000</TD>
+    <TD vAlign=top>
+      <CENTER>22,000,000</CENTER></TD></TR></TBODY></TABLE>
+<P>
+<DIV class=igen>We will start by looking at what the CPU really does: 
+<P><A name=CPU></A>
+<HR>
+
+<TABLE border=0 cols=2 width="80%">
+  <TBODY>
+  <TR>
+    <TD>
+      <H2>What is a CPU?</H2></TD>
+    <TD width=200>
+      <DIV align=right>
+      <H3><A 
+      href="http://www.mkdata.dk/click/module3a.htm#top">[top]</A></H3></DIV></TD></TR></TBODY></TABLE>
+<DIV class=igen>The CPU is centrally located on the motherboard. Since the CPU 
+carries out a large share of the work in the computer, data pass continually 
+through it. The data come from the RAM and the units (keyboard, drives etc.). 
+After processing, the data is send back to RAM and the units. 
+<P>The CPU continually receives <I>instructions </I>to be executed. Each 
+instruction is a data processing order. The work itself consists mostly of 
+<I>calculations </I>and <I>data transport:</I> 
+<P><IMG height=114 src="5_files/u1983.gif" vspace=20 width=300 NOSAVE> 
+<P>Data have a path to the CPU. It is kind of a data expressway called the 
+<I>system bus.</I> You can read more about the system bus in <A 
+href="http://www.mkdata.dk/click/module2b.htm">module 2b</A>. 
+<P><IMG alt="" border=0 src="5_files/u1982.gif"> 
+<P>
+<HR>
+
+<TABLE border=0 cols=2 width="80%">
+  <TBODY>
+  <TR>
+    <TD>
+      <H2>Two types of data</H2></TD>
+    <TD width=200>
+      <DIV align=right>
+      <H3><A 
+      href="http://www.mkdata.dk/click/module3a.htm#top">[top]</A></H3></DIV></TD></TR></TBODY></TABLE>
+<DIV class=igen>The CPU is fed long streams of data via the system bus. The CPU 
+receives at least two <I>types </I>of data: 
+<UL>
+  <LI>Instructions on how to handle the other data. 
+  <LI>Data, which must be handled according to the instructions. </LI></UL>What we 
+call instructions is<I> program code</I>. That includes those messages, which 
+you continuously send to the PC from the mouse and keyboard. Messages to print, 
+save, open, etc. 
+<P>Data are typically user data. Think about the letter, which you are writing 
+to Aunt Karen. The <I>contents, </I>letters, images, etc., are <I>user data</I>. 
+but then you say "print," you are sending program code (instructions): <BR><IMG 
+height=252 src="5_files/u1984.gif" vspace=20 width=300 NOSAVE> 
+<P>
+<HR>
+
+<P>
+<TABLE border=0 cols=2 width="80%">
+  <TBODY>
+  <TR>
+    <TD>
+      <H2><A name=8086komp></A>8086 compatible instructions</H2></TD>
+    <TD width=200>
+      <DIV align=right>
+      <H3><A 
+      href="http://www.mkdata.dk/click/module3a.htm#top">[top]</A></H3></DIV></TD></TR></TBODY></TABLE>
+<DIV class=igen>The biggest job for the CPU consists of <I>decoding </I>the 
+instructions and <I>localizing </I>data. The calculations themselves are not 
+heavy work. 
+<P>The decoding consists of understanding the instructions, which the user 
+program sends to the CPU. All PC CPUs, are "8086 compatible." This means that 
+the programs communicate with the CPU in a specific family of instructions. 
+<P>These instructions were originally written for the Intel 8086 processor, 
+which founded the concept "the IBM compatible PC." The 8086 from 1978 received 
+its instructions in a certain format. 
+<P>Since there was a desire that subsequent CPU generation should be able to 
+handle the same instructions which the 8086 could, it was necessary to make the 
+instruction sets compatible. The new CPUs should understand the same 
+instructions. This <I>backwards compatability</I> has been an industry standard 
+ever since. All new processors, regardless of how advanced, must be able to 
+handle the 8086 instruction format. 
+<P>Thus, the new CPUs must use much effort to translate the 8086 instruction 
+format to internal instruction codes: 
+<P><IMG height=296 src="5_files/u1981.gif" vspace=20 width=300 NOSAVE> 
+<P><A name=RISC></A><A name=CISC></A>
+<P>
+<TABLE border=0 cols=2 width="80%">
+  <TBODY>
+  <TR>
+    <TD>
+      <H2>CISC and RISC instructions and their handling</H2></TD>
+    <TD width=200>
+      <DIV align=right>
+      <H3><A 
+      href="http://www.mkdata.dk/click/module3a.htm#top">[top]</A></H3></DIV></TD></TR></TBODY></TABLE>
+<DIV class=igen>The first CPUs had a so called <I>Complex Instruction Set 
+Computer </I>(CISC)<I>.</I> This means that the computer can understand many and 
+complex instructions. The X86 instruction set, with its varying length from 8 to 
+120 bit, was originally developed for the 8086 with its mere 29000 transistors. 
+<P>
+<H3>Reduced Instruction Set Computer (RISC)</H3>The RISC instructions are brief 
+and the same length (for example 32 bit long, as in Pentium Pro), and they 
+process much faster than CISC instructions. Therefore, RISC is used in all newer 
+CPUs. However, the problem is that the instructions arrive at the CPU in 8086 
+format. Thus, they must be decoded 
+<P>For every new CPU generation, the instruction set has been expanded. The 386 
+came with 26 new instructions, the 486 with 6 new instructions, and Pentium with 
+8 new instructions. These changes mean that some programs require at least a 386 
+or a Pentium processor to work.<A name=pipeline></A> 
+<H3>More work per clock stroke</H3>There is also a continuous optimizing of the 
+instruction handling process. One is that the clock frequency increases, as we 
+will see later - the faster, the better. But what can the CPU do in one clock 
+tick. That is critical to its performance. For example, a 386 needed 6 clock 
+ticks to add a number to a sub total. A job which the 486 manages in only two 
+clock ticks, because of more effective instruction decoding. 
+<P>5th and 6th generation CPUs can execute more than one of those operations in 
+one clock tick, since they contain more processing lines (pipelines), which work 
+parallel:
+<P><IMG alt="" border=0 src="5_files/_970.gif"> 
+<P>Read also the section about <A 
+href="http://www.mkdata.dk/click/module3e09.htm#mmx">MMX</A>, about <A 
+href="http://www.mkdata.dk/click/module3e09.htm#3dn">3DNow!</A>, and <A 
+href="http://www.mkdata.dk/click/module3e07.htm#Katmai">Katmai</A> instructions. 
+
+<P><A name=FPU></A>
+<P>
+<TABLE border=0 cols=2 width="80%">
+  <TBODY>
+  <TR>
+    <TD>
+      <H2>Floating point unit - FPU</H2></TD>
+    <TD width=200>
+      <DIV align=right>
+      <H3><A 
+      href="http://www.mkdata.dk/click/module3a.htm#top">[top]</A></H3></DIV></TD></TR></TBODY></TABLE>
+<DIV class=igen>The first CPUs could only work with whole numbers. Therefore, it 
+was necessary to add a mathematical co-processor (FPU), when better math power 
+was needed. Later, this FPU was built into the CPU: 
+<P>
+<TABLE bgColor=#ffffcc border=1 cellPadding=5 cols=2 width="50%">
+  <TBODY>
+  <TR>
+    <TD>CPU</TD>
+    <TD>FPU</TD></TR>
+  <TR>
+    <TD>8086</TD>
+    <TD>8087</TD></TR>
+  <TR>
+    <TD>80286</TD>
+    <TD>80287</TD></TR>
+  <TR>
+    <TD>80386</TD>
+    <TD>80387</TD></TR>
+  <TR>
+    <TD>80486DX</TD>
+    <TD>Built in</TD></TR>
+  <TR>
+    <TD>80486SX</TD>
+    <TD>None</TD></TR>
+  <TR>
+    <TD>Pentium and thereafter</TD>
+    <TD>Built in</TD></TR></TBODY></TABLE>
+<P>
+<DIV class=igen>It is said that Intel's CPUs have by far the best FPU units. 
+Processors from AMD and Cyrix definitely have a reputation for providing sub 
+standard performance in this area. But, you may not utilize the FPU. That 
+depends on the applications (user programs) you are using. Common office 
+programs do not use the floating point operations, which the FPU can handle. 
+However, 3D graphics programs like AutoCad do. And all 3D-games like Quake rely 
+heavily on FPU perfomance! Read more of this subject <A 
+href="http://www.mkdata.dk/click/module3e09.htm">here</A>. 
+<P>Therefore, if you use your PC in advanced design applications, the FPU 
+performance becomes significant. For some users, it is only of limited 
+importance. 
+<P>
+<HR>
+
+<TABLE border=0 cols=2 width="80%">
+  <TBODY>
+  <TR>
+    <TD>
+      <H2>Many brand names</H2></TD>
+    <TD width=200>
+      <DIV align=right>
+      <H3><A 
+      href="http://www.mkdata.dk/click/module3a.htm#top">[top]</A></H3></DIV></TD></TR></TBODY></TABLE>
+<DIV class=igen>There are CPUs of many brand names (IBM, Texas, Cyrix, AMD), and 
+often they make models which overlap two generations. This can make it difficult 
+to keep of track of CPUs. Here is an attempt to identify the various CPUs 
+according to generation: 
+<P><IMG align=textTop src="5_files/u1980.gif" vspace=20 NOSAVE> 
+<P>
+<HR>
+
+<TABLE bgColor=#c0c0c0 border=0 cellPadding=5 cellSpacing=0 cols=2 
+  width="80%"><TBODY>
+  <TR>
+    <TD>
+      <H2>Learn more</H2></TD>
+    <TD width=200>
+      <DIV align=right>
+      <H3><A 
+      href="http://www.mkdata.dk/click/module3a.htm#top">[top]</A></H3></DIV></TD></TR></TBODY></TABLE>
+<P>
+<DIV class=igen>
+<P>To continue: <A href="http://www.mkdata.dk/click/module3b.htm">Module 3b</A> 
+about CPU improvements 
+<P>Click for <A href="http://www.mkdata.dk/click/module3c.htm">Module 3c</A> 
+about the 5th generations CPUs (Pentiums etc.) 
+<P>Click for <A href="http://www.mkdata.dk/click/module3d1.htm">Module 3d</A> 
+about the clock frequencies 
+<P>Click for <A href="http://www.mkdata.dk/click/module3b.htm">Module 3e</A> 
+about 6th generations CPUs (Pentium IIs etc.) 
+<P>
+<P>
+<TABLE bgColor=#c0c0c0 cellPadding=0 cellSpacing=0>
+  <TBODY>
+  <TR>
+    <TD>
+      <TABLE bgColor=#c0c0c0 cellPadding=9 cellSpacing=0>
+        <TBODY>
+        <TR>
+          <TD>
+            <CENTER><A href="http://www.mkdata.dk/click/index.htm" 
+            target=_parent>[Main page]</A></CENTER></TD>
+          <TD>
+            <CENTER><A 
+          href="mailto:ClickAndLearn@mkdata.dk">[Mail]</A></CENTER></TD>
+          <TD>
+            <CENTER><A 
+            href="http://www.mkdata.dk/click/dictionary/index.htm">[Karbo's 
+            Dictionary]</A></CENTER></TD>
+          <TD><A href="http://www.mkdata.dk/click/w98/index.htm">[The Windows 
+            98 page]</A></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE>
+<DIV class=igen>
+<HR>
+<BR>Copyright (c) 1996, 1997, 1998 and 1999 by Michael B. Karbo. WWW.MKDATA.DK. 
+Click &amp; Learn visited<IMG height=18 hspace=3 src="5_files/Count.gif" 
+width=50 NOSAVE> times on this server.
+<SCRIPT language=JavaScript>
+<!--//hide script from old browsers
+document.write( "<I>Last edition "+ document.lastModified +"</I>");
+//end hiding contents -->
+</SCRIPT>
+ 
+</DIV></DIV></DIV></DIV></DIV></DIV></DIV></DIV></DIV></DIV></DIV></DIV></DIV></BODY></HTML>

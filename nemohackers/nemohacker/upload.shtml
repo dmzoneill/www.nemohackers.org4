@@ -1,0 +1,187 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 TRANSITIONAL//EN">
+<HTML>
+<HEAD>
+<TITLE>[ nemo hackers ]</TITLE>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1" CHARSET="iso-8859-1">
+<META NAME="keywords" CONTENT=
+"newbie, newbies, newbiesplace, newbiezplace, learn to hack, how to hack, how do i hack,hack hotmail, hacking hotmail, hack yahoo, hacking yahoo, hacking tools, hacking programs, hacking site, newby, newbeisplace, newbeizplace,">
+<META NAME="description" CONTENT="NewbiezPlace.com - Where newbies come to learn the art of hacking. This site is a vast resource for hacking methodology and toolz">
+<META NAME="robots" CONTENT="FOLLOW,INDEX">
+
+
+<!--#include virtual="header.shtml" -->
+
+
+<TABLE BGCOLOR="#000000" BORDER="0" CELLPADDING="5" CELLSPACING="0" WIDTH="750"><TR>
+<TD BGCOLOR="#000000" VALIGN="top" WIDTH="160">
+<TABLE BGCOLOR="#1c1f22" BORDER="0" CELLPADDING="2" CELLSPACING="1" WIDTH="160">
+<TR BGCOLOR="#515468"><TD BGCOLOR="#024070" WIDTH="160">
+<CENTER><CENTER CLASS="small_uppercase">M E N U</CENTER></CENTER>
+</TD></TR>
+<TR BGCOLOR="#1c1f22">
+<TD WIDTH="160" BGCOLOR="#1c1f22" CELLPADDING="2">
+<TABLE BORDER="0" CELLPADDING="4" CELLSPACING="0" WIDTH="100%">
+<TR CLASS="small">
+<TD BGCOLOR="#1C1F22" HEIGHT="426" VALIGN="top">
+<CENTER>
+<!--#include virtual="menu.shtml" -->
+</CENTER>
+
+
+
+
+</TD></TR></TABLE></TD></TR></TABLE>
+
+
+
+</TD>
+
+
+
+<!------------end left column--------------->
+
+
+
+
+
+
+
+<!------------right column--------------->
+
+
+
+<TD BGCOLOR=#000000 VALIGN=top>
+
+<TABLE BORDER=0 CELLPADDING=0 CELLSPACING=0 WIDTH="100%">
+
+<TR VALIGN=top><TD BGCOLOR="#000000">
+
+
+
+
+
+
+
+
+
+<!------------------11111111111111111111111111------------------>
+
+
+
+
+
+
+
+
+
+
+
+<TABLE BGCOLOR=#1c1f22 BORDER=0 CELLPADDING=0 CELLSPACING=1 WIDTH="100%">
+
+<TR BGCOLOR=#515468><TD BGCOLOR="#024070">
+
+<CENTER CLASS=small_uppercase><SPAN CLASS=small>
+
+<FONT COLOR=#80899f FACE="Arial"><B> . </B></FONT><B>
+
+<FONT COLOR=#b1b6c5 FACE="Arial"> : </FONT>
+
+<FONT FACE="Arial">
+
+<FONT COLOR=#ffffff> : U 
+
+<FONT COLOR=#b1b6c5> · </FONT>P 
+
+<FONT COLOR=#b1b6c5> · </FONT>L 
+
+<FONT COLOR=#b1b6c5> · </FONT>O 
+
+<FONT COLOR=#b1b6c5> · </FONT>A
+
+<FONT COLOR=#b1b6c5> · </FONT>D
+
+</FONT>
+
+<FONT COLOR=#ffffff> : </FONT>
+
+<FONT COLOR=#b1b6c5> :
+
+<FONT COLOR=#80899f> . </FONT></FONT></FONT></B></SPAN></CENTER>
+
+</TD></TR>
+
+<TR BGCOLOR=#24252f>
+
+<TD>
+
+<TABLE BORDER=0 CELLPADDING=4 CELLSPACING=0 WIDTH="100%">
+
+<TR CLASS=small><TD BGCOLOR="#1C1F22">
+
+
+
+
+
+<CENTER>
+
+<FONT FACE="Verdana"><BR>Please upload files<BR><BR>User = member<BR>pass = guest<BR><BR>
+
+if you get an error after you click <BR>upload dont worry the files have bin uploaded!<BR><BR>
+
+
+
+<TABLE ><TR>
+
+<TD WIDTH="250">
+
+<FORM METHOD="POST" ACTION="upcgi/upload.cgi" ENCTYPE="multipart/form-data">
+
+<INPUT TYPE="HIDDEN" NAME="ac" VALUE="upload">
+
+<B CLASS="my">Login : &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<INPUT TYPE="text" NAME="login"><BR>
+
+<B CLASS="my">Password :  &nbsp;<INPUT TYPE="password" NAME="pass"><BR><BR>
+
+<B CLASS="my">Upload file:&nbsp;<INPUT TYPE="file" NAME="file">
+
+<BR><BR><INPUT TYPE="submit" VALUE="Upload"></FORM>
+
+
+
+<BR>The sad fuck who keeps uploading <B> freeporn.exe </B> be aware that ip looging etc is now ativated, so if i see that shit again, youll have a nice time explainging it to your isp..<BR>
+
+<H5> Visitors are advised to scan files on download</H5><BR>
+
+<H4>Once uploaded you can view files from
+
+<A HREF="uploaded/">Uploaded files</A>
+
+</H4>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</TD></TR></TABLE></TD></TR></TABLE></TD></TR></TABLE></TD></TR></TABLE>
+
+</TD></TR></TABLE></TD></TR></TABLE>
+
+<TABLE BGCOLOR=#000000 BORDER=0 CELLPADDING=0 CELLSPACING=0 WIDTH=750 HEIGHT=2>
+
+<TR BGCOLOR="#024070" HEIGHT=2><TD BGCOLOR="#024070" HEIGHT=2></TD></TR></TABLE>
+
+<!--#include virtual="footer.shtml" -->
+
+<BR>
+

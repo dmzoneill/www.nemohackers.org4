@@ -1,0 +1,77 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+
+
+<HTML>
+  
+  <HEAD>
+    <TITLE>Nemohackers Community</TITLE>
+
+<SCRIPT LANGUAGE="JavaScript">
+
+
+<!-- Begin
+var background = "black"; // background color
+var text = "white";  // text color
+
+var URL = "index.shtml"; // page to go to after slide
+var speed = 3000; // speed of slide
+var msgcount = 6; // set the amount of messages
+
+var i = 1;
+var blank = " ";
+ 
+function StringArray (n) {
+this.length = n;
+for (var x = 1; x <= n; x++) {
+this[x] = ' ';
+   }
+}
+// imput your messages here 
+message = new StringArray(msgcount);
+message[1] = "It's 2 am....";
+message[2] = "Do you know who is browsing your network?";
+message[3] = "Who is looking through your files <br><br>or defacing your homepage?";
+message[4] = "Every day hackers are pentrating networks and<br><br> siphoning information or causing havoc";
+message[5] = "Why?";
+message[6] = "<a href=www.nemohackers.com>www.nemohackers.com</a>";
+
+function Slide() { 
+slidepage = '<body bgcolor='+background+'>'
++ '<center><table cellspacing=0 cellpadding=0 borber=0 height=100%>'
++ '<tr><td><center><table border=0 '
++ 'height=100><tr><td><center><font '
++ 'color='+text+' face=arial size=4>'+message[i]+'</font>'
++ '</center></td></tr></table></center></td></tr></table></center></body>';
+ 
+if (i == message.length + 1) parent.location = URL;
+ 
+if (i < message.length + 1) { 
+frames['slideshow'].location = "javascript:parent.slidepage";
+i++;
+setTimeout("Slide()",speed);
+   }
+}
+// End -->
+</SCRIPT>
+    
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1" CHARSET="iso-8859-1">
+<META NAME="keywords" CONTENT=
+"newbie, newbies, newbiesplace, newbiezplace, learn to hack, how to hack, how do i hack, hack hotmail, hacking hotmail, hack yahoo, hacking yahoo, hacking tools, hacking programs, hacking site, newby, newbeisplace, newbeizplace,">
+<META NAME="description" CONTENT="NewbiezPlace.com - Where newbies come to learn the art of hacking. This site is a vast resource for hacking methodology and toolz">
+<META NAME="robots" CONTENT="FOLLOW,INDEX">
+<LINK REL=stylesheet TYPE="text/css" HREF="style.css" TITLE="style">
+</HEAD>
+  
+<FRAMESET BORDER="0" ROWS="100%,*" ONLOAD="Slide()">
+<FRAME NAME="slideshow" SRC="javascript:parent.blank">
+</FRAMESET>
+<BODY>
+<noframes>
+
+Sorry your browser does not support frames
+click here to enter <a href="index.shtml">Nemohackers</a>
+
+</noframes>
+
+</BODY>
+</HTML>

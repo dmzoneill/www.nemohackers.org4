@@ -1,0 +1,494 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<!-- saved from url=(0040)http://www.mkdata.dk/click/module2c1.htm -->
+<HTML><HEAD><TITLE>An illustrated Guide to I/O-buses</TITLE>
+<META content="text/html; charset=windows-1252" http-equiv=Content-Type>
+<META 
+content="An illustrated Guide to I/O-buses. Understand the I/O buses, ISA and PCI. About IRQ and PnP. For teachers, students and self-study." 
+name=Description>
+<META content="I/O buses. IRQ, ISA, MCA, EISA, VL, PCI" name=KeyWords>
+<META content="Michael B. Karbo" name=Author><!--
+About the ISA bus and other old PC buses. For teachers, students and self-study.
+About the ISA bus and other old PC buses. For teachers, students and self-study.
+About the ISA bus and other old PC buses. For teachers, students and self-study.
+--><LINK href="3_files/karbo.css" rel=StyleSheet type=text/css><!-- begin Imagine advertisement template -->
+<SCRIPT language=Javascript>
+    var ad_now    = new Date();
+    var ad_random = ad_now.getTime();
+    document.write('<IFRAME WIDTH=468 HEIGHT=60 MARGINWIDTH=0 MARGINHEIGHT=0 HSPACE=0 VSPACE=0 FRAMEBORDER=0 SCROLLING=no BORDERCOLOR="#000000" SRC="http://maximumpc.usads.futurenet.com/hserver/site=MAXIMUMPC.KARBOSGUIDE/area=WINDOWS.PERIPHERALS.STORAGE/aamsz=468X60/acc_random='+ad_random+ '">');
+    document.write('<a href="http://maximumpc.usads.futurenet.com/adclick.exe/site=MAXIMUMPC.KARBOSGUIDE/area=WINDOWS.PERIPHERALS.STORAGE/aamsz=468X60/acc_random=' + ad_random + '">');
+    document.write('<img src="http://maximumpc.usads.futurenet.com/adserver.exe/site=MAXIMUMPC.KARBOSGUIDE/area=WINDOWS.PERIPHERALS.STORAGE/aamsz=468X60/acc_random='+ad_random+'" border=0 width=468 height=60>');
+    document.write('</a>');
+    document.write('</iframe>\n');
+</SCRIPT>
+<NOSCRIPT>
+<META content="MSHTML 5.00.2614.3500" name=GENERATOR></HEAD>
+<BODY bgColor=#ffffff><A name=top></A>
+<DIV class=normal>
+<P>
+<P><A 
+href="http://maximumpc.usads.futurenet.com/adclick.exe/site=MAXIMUMPC.KARBOSGUIDE/area=WINDOWS.PERIPHERALS.STORAGE/aamsz=468X60"><IMG 
+border=0 height=60 src="3_files/468x60_nokia8260_15k_3l_011501.gif" 
+width=468></A> 
+</NOSCRIPT><!-- end Imagine advertisement template --><!-- xx --><BR>
+<P>
+<H2>Click &amp; Learn. Module 2c.1 WWW.MKDATA.DK</H2>
+<H1>About the I/O buses</H1>
+<P>
+<HR>
+
+<P>On these pages, you can read about the important system bus derivatives, the 
+different I/O buses:
+<P>
+<DIV class=igen>
+<TABLE width="80%">
+  <TBODY>
+  <TR>
+    <TD vAlign=top>
+      <UL>
+        <LI><A 
+        href="http://www.mkdata.dk/click/module2c1.htm#I_O_busserne">Introduction 
+        to the I/O buses</A> 
+        <LI><A href="http://www.mkdata.dk/click/module2c1.htm#Tek_His">Technical 
+        and historical background for the I/O buses</A></LI></UL></TD>
+    <TD vAlign=top>
+      <LI><A href="http://www.mkdata.dk/click/module2c2.htm">Next page</A> 
+      <LI><A href="http://www.mkdata.dk/click/module2b2.htm">Previous page</A> 
+      <P><!-- begin Imagine advertisement template -->
+      <SCRIPT language=Javascript>
+    var ad_now    = new Date();
+    var ad_random = ad_now.getTime();
+    document.write('<IFRAME WIDTH=88 HEIGHT=31 MARGINWIDTH=0 MARGINHEIGHT=0 HSPACE=0 VSPACE=0 FRAMEBORDER=0 SCROLLING=no BORDERCOLOR="#000000" SRC="http://maximumpc.usads.futurenet.com/hserver/site=MAXIMUMPC.KARBOSGUIDE/area=ROS/aamsz=88X31/acc_random='+ad_random+ '">');
+    document.write('<a href="http://maximumpc.usads.futurenet.com/adclick.exe/site=MAXIMUMPC.KARBOSGUIDE/area=ROS/aamsz=88X31/acc_random=' + ad_random + '">');
+    document.write('<img src="http://maximumpc.usads.futurenet.com/adserver.exe/site=MAXIMUMPC.KARBOSGUIDE/area=ROS/aamsz=88X31/acc_random='+ad_random+'" border=0 width=88 height=31>');
+    document.write('</a>');
+    document.write('</iframe>\n');
+</SCRIPT>
+      <NOSCRIPT><A 
+      href="http://maximumpc.usads.futurenet.com/adclick.exe/site=MAXIMUMPC.KARBOSGUIDE/area=ROS/aamsz=88X31"><IMG 
+      border=0 height=31 src="3_files/maximumpc.mpc_logo10_13.88x31.gif" 
+      width=88></A> 
+      </NOSCRIPT><!-- end Imagine advertisement template --></A></P></LI></TD></TR></TBODY></TABLE>
+<P>
+<P><IMG height=150 src="3_files/u1986.gif" vspace=20 width=400 NOSAVE> 
+<P>
+<HR>
+
+<TABLE border=0 cols=2 width="80%">
+  <TBODY>
+  <TR>
+    <TD vAlign=top>
+      <H2><A name=I_O_busserne></A>Introduction to the I/O buses</H2></TD>
+    <TD width=200>
+      <DIV align=right>
+      <H3><A 
+      href="http://www.mkdata.dk/click/module2c1.htm#top">[top]</A></H3></DIV></TD></TR></TBODY></TABLE>
+<TABLE width="80%">
+  <TBODY>
+  <TR>
+    <TD vAlign=top>
+      <DIV class=igen>We have seen before, that the PC's buses are the 
+      fundamental data "highways" on the system board. The "first" bus is the 
+      <I>system bus</I>, which connects the CPU with RAM. In older designs it 
+      was a local bus. In newer designs this bus is called the front side bus 
+      (FSB). 
+      <P>The typical local bus has a speed and width depending on the type CPU 
+      installed on the motherboard. Typically, the system bus will be 64 bits 
+      wide and run at 66, 100 or 133 MHz. Thise high speeds create electrical 
+      noise and other problems. Therefore, the speed must be reduced for data 
+      reaching the expansion cards and other more peripheral components. 
+      </P></DIV></TD>
+    <TD vAlign=top><!-- x120x90x --></TD></TR></TBODY></TABLE>Very few expansion 
+cards can operate at more than 40 MHz. Then the electronics shut down. The chips 
+can just not react faster. Therefore, the PC has additional buses. 
+<H3>Originally only one bus</H3>
+<P>However, the first PCs had only one bus, which was common for the CPU, RAM 
+and I/O components: 
+<P><IMG src="3_files/999.png" vspace=20 NOSAVE> 
+<P>The older first and second generation CPUs ran at relatively low clock 
+frequencies, and all system components could keep up with those speeds. 
+<H3>RAM on adapters</H3>Among other things, that allowed additional RAM to be 
+installed in expansion slots in the PC, by installing an adapter in a vacant 
+expansion slot. An adapter, where RAM was mounted: 
+<P><IMG src="3_files/997.png" vspace=20 NOSAVE> 
+<P>This setup would be unthinkable today. However it is truely a local bus. All 
+units are united on one bus using the same clock. 
+<P>First in 1987, Compaq figured out how to separate system bus from I/O bus, so 
+they could run at different speeds. This multi-bus architecture has been 
+industry standard ever since. Modern PCs also have more than one I/O bus. 
+<P>
+<P>
+<HR>
+
+<P>
+<P><!--Begin Flycast Ad Copyright 1999 Flycast Communications. 
+    All rights reserved. Patent Pending -->
+<SCRIPT language=JAVASCRIPT>
+    <!--
+    FlycastSite	= "ClickLearn";
+    FlycastPage	= "RunofSite";
+    FlycastWidth	= 468;
+    FlycastHeight	= 60;
+    FlycastPrintTag	= true;
+    FlycastNewAd	= true;
+    FlycastLoaded	= false;
+    FlycastVersion	= 3.5;
+    //-->
+    </SCRIPT>
+
+<SCRIPT language=JAVASCRIPT src="3_files/FlycastUniversal"></SCRIPT>
+
+<SCRIPT language=JAVASCRIPT>
+    <!--
+	if (FlycastLoaded) FlycastDeliverAd();
+    //-->
+    </SCRIPT>
+<NOSCRIPT><IFRAME frameBorder=0 height=60 marginHeight=0 marginWidth=0 
+scrolling=no src="3_files/acc_random=951395749830.htm" 
+width=468>
+	<A target="_top" HREF="http://ad-adex3.flycast.com/server/click/ClickLearn/RunofSite/123456"><IMG BORDER=0 WIDTH=468 HEIGHT=60 SRC="http://ad-adex3.flycast.com/server/img/ClickLearn/RunofSite/123456"></A>
+	</IFRAME></IFRAME></NOSCRIPT><!--End Flycast Ad Copyright 1999 Flycast Communications. All rights reserved. Patent Pending -->
+<P>
+<P>
+<HR>
+
+<P>
+<TABLE border=0 cols=2 width="80%">
+  <TBODY>
+  <TR>
+    <TD vAlign=top>
+      <H2>What does an I/O bus do?</H2></TD>
+    <TD width=200>
+      <DIV align=right>
+      <H3><A 
+      href="http://www.mkdata.dk/click/module2c1.htm#top">[top]</A></H3></DIV></TD></TR></TBODY></TABLE>
+<DIV class=igen>I/O buses connect the CPU to all other components, except RAM. 
+Data are moved on the buses from one component to another, and data from other 
+components to the CPU and RAM. The I/O buses differ from the system bus in 
+speed. Their speed will always be lower than the system bus speed. Over the 
+years, different I/O buses have been developed. On modern PCs, you will usually 
+find four buses: 
+<UL>
+  <LI>The ISA bus, which is an old low speed bus, soon to be excluded from the 
+  PC design. 
+  <LI>The PCI bus, which is a new high speed bus. 
+  <LI>The USB bus (<I>Universal Serial Bus)</I>, which is a new low speed bus. 
+  <LI>The AGP bus which solely is used for the graphics card. </LI></UL>As 
+mentioned earlier, I/O buses are really extensions to the system bus. On the 
+motherboard, the system bus ends in a controller chip, which forms a bridge to 
+the I/O buses. 
+<P>All in all, the buses have had a very central placement in the PC's data 
+exchange. Actually, all components except the CPU communicate with each other 
+and with RAM via the different I/O buses. Here you see a demonstration of this 
+logic: 
+<P><IMG src="3_files/998.png" vspace=20 NOSAVE> 
+<P>
+<HR>
+
+<P><!--Begin Engage Media Ad Copyright 1999 Engage Media. 
+    All rights reserved. Patent Pending -->
+<SCRIPT language=JAVASCRIPT>
+    <!--
+    FlycastSite	= "ClickLearn";
+    FlycastPage	= "hardware2";
+    FlycastWidth	= 468;
+    FlycastHeight	= 60;
+    FlycastPrintTag	= true;
+    FlycastNewAd	= true;
+    FlycastEnableTargetWindow	= false;
+    FlycastKeyword	= "";
+    FlycastLoaded	= false;
+    FlycastVersion	= 3.6;
+    //-->
+    </SCRIPT>
+
+<SCRIPT language=JAVASCRIPT src="3_files/Version3"></SCRIPT>
+
+<SCRIPT language=JAVASCRIPT>
+    <!--
+	if (!FlycastLoaded) document.write('<A target="_top" HREF="http://ad-adex3.flycast.com/server/click/ClickLearn/hardware2/123"><IM' + 'G WIDTH=468 HEIGHT=60 BORDER=0 SRC="http://ad-adex3.flycast.com/server/ad/ClickLearn/hardware2/123"></A>');
+    //-->
+    </SCRIPT>
+<NOSCRIPT><IFRAME frameBorder=0 height=60 marginHeight=0 marginWidth=0 
+scrolling=no src="3_files/acc_random=951395751210.htm" 
+width=468>
+	<A target="_top" HREF="http://ad-adex3.flycast.com/server/click/ClickLearn/hardware2/123"><IMG BORDER=0 WIDTH=468 HEIGHT=60 SRC="http://ad-adex3.flycast.com/server/img/ClickLearn/hardware2/123"></A>
+	</IFRAME></IFRAME></NOSCRIPT><!--End Engage Media Ad Copyright 1999 Engage Media. All rights reserved. Patent Pending -->
+<P>
+<HR>
+
+<P>
+<TABLE border=0 cols=2 width="80%">
+  <TBODY>
+  <TR>
+    <TD vAlign=top>
+      <H2>The physical aspects of the I/O buses</H2></TD>
+    <TD width=200>
+      <DIV align=right>
+      <H3><A 
+      href="http://www.mkdata.dk/click/module2c1.htm#top">[top]</A></H3></DIV></TD></TR></TBODY></TABLE>
+<DIV class=igen>Physically, the I/O bus consists of tracks on the printed 
+circuit board. These tracks are used as: 
+<UL>
+  <LI>Data tracks, which each can move one bit at a time 
+  <LI>Address tracks, which identify where data should be sent to 
+  <LI>Other tracks for clock ticks, voltage, verification signals, etc. 
+</LI></UL>When data are sent on the bus, they must be supplied with a 
+<I>receiver</I>. Therefore, each device on the bus has an address. Similarly, 
+the RAM is divided in sections, each having its address. Prior to sending data, 
+a number is sent on the address track, to identify where the data should be sent 
+to. 
+<H3>The bus width</H3>
+<P>The number of data tracks determine the data transfer capacity. The ISA bus 
+is slow, partly because it only has 16 data tracks. The modern PCs send 32 bits 
+per clock tick. On the ISA bus, 32 bits must be divided in two packages of 16 
+bits. This delays the data transfer. Another I/O bus concept is <I>wait 
+states.</I> 
+<P><A name=Waitstates></A>
+<H3>Wait states </H3>Wait states are small pauses. If an ISA adapter cannot keep 
+up with the incoming data flow, its controller sends wait states to the CPU. 
+Those are signals to the CPU to "hold on for a sec." A wait state is a wasted 
+clock tick. The CPU skips a clock tick, when not occupied. Thus the old and slow 
+ISA adapter can significantly reduce the operating speed of a modern computer. 
+<P>Another aspect is the <A 
+href="http://www.mkdata.dk/click/module5a3.htm#IRQ">IRQ</A> signals, which the 
+components use to attract attention from the CPU. That and the concepts <I>DMA 
+</I>and <I>bus mastering, </I>are described in module 5, which deals with 
+adapters. <A name=Tek_His></A>
+<P>
+<HR>
+
+<P>
+<TABLE border=0 cols=2 width="80%">
+  <TBODY>
+  <TR>
+    <TD vAlign=top>
+      <H2>Technical and historical background for the I/O buses</H2></TD>
+    <TD width=200>
+      <DIV align=right>
+      <H3><A 
+      href="http://www.mkdata.dk/click/module2c1.htm#top">[top]</A></H3></DIV></TD></TR></TBODY></TABLE>
+<DIV class=igen>In modern PCs you only find the PCI and ISA buses (besides USB, 
+which we do not know much about yet). But, over the years, there have been other 
+buses. Here is a diagram of the various I/O buses. Then comes a more detailed 
+description of each of the buses: 
+<P>
+<TABLE border=1 borderColor=#000000 cellPadding=5>
+  <TBODY>
+  <TR>
+    <TD align=middle bgColor=#ffff80 vAlign=top>
+      <CENTER>Bus</CENTER></TD>
+    <TD align=middle bgColor=#ffff80>
+      <CENTER>Year</CENTER></TD>
+    <TD align=middle bgColor=#ffff80>
+      <CENTER>Bus width</CENTER></TD>
+    <TD align=middle bgColor=#ffff80>
+      <CENTER>Bus speed</CENTER></TD>
+    <TD align=middle bgColor=#ffff80 vAlign=top>
+      <CENTER>Max. throughput</CENTER>
+      <CENTER>(theoretical)</CENTER></TD></TR>
+  <TR>
+    <TD bgColor=#ffff80>
+      <CENTER>PC and XT</CENTER></TD>
+    <TD bgColor=#ffff80>
+      <CENTER>1980-82</CENTER></TD>
+    <TD bgColor=#ffff80>
+      <CENTER>8 bit</CENTER></TD>
+    <TD bgColor=#ffff80>
+      <CENTER>Synchronous with CPU:</CENTER>
+      <CENTER>4.77 - 6 MHz</CENTER></TD>
+    <TD bgColor=#ffff80>
+      <CENTER>4-6 MBps</CENTER></TD></TR>
+  <TR>
+    <TD align=middle bgColor=#ffff80 vAlign=top>
+      <CENTER>ISA (AT)</CENTER>
+      <CENTER>Simple bus.</CENTER></TD>
+    <TD align=middle bgColor=#ffff80 vAlign=top>
+      <CENTER>1984</CENTER></TD>
+    <TD align=middle bgColor=#ffff80 vAlign=top>
+      <CENTER>16 bit</CENTER></TD>
+    <TD align=middle bgColor=#ffff80 vAlign=top>
+      <CENTER>Synchronous:</CENTER>
+      <CENTER>8-10 MHz</CENTER></TD>
+    <TD align=middle bgColor=#ffff80 vAlign=top>
+      <CENTER>8 MBps</CENTER></TD></TR>
+  <TR>
+    <TD align=middle bgColor=#ffff80 vAlign=top>
+      <CENTER>MCA. Advanced,</CENTER>
+      <CENTER>intelligent bus by IBM.</CENTER></TD>
+    <TD align=middle bgColor=#ffff80 vAlign=top>
+      <CENTER>1987</CENTER></TD>
+    <TD align=middle bgColor=#ffff80 vAlign=top>
+      <CENTER>32 bit</CENTER></TD>
+    <TD align=middle bgColor=#ffff80 vAlign=top>
+      <CENTER>Asynchronous:</CENTER>
+      <CENTER>10.33 MHz</CENTER></TD>
+    <TD align=middle bgColor=#ffff80 vAlign=top>
+      <CENTER>40 MBps</CENTER></TD></TR>
+  <TR>
+    <TD align=middle bgColor=#ffff80 vAlign=top>
+      <CENTER>EISA.</CENTER>
+      <CENTER>Bus for servers.</CENTER></TD>
+    <TD align=middle bgColor=#ffff80 vAlign=top>
+      <CENTER>1988</CENTER></TD>
+    <TD align=middle bgColor=#ffff80 vAlign=top>
+      <CENTER>32 bit</CENTER></TD>
+    <TD align=middle bgColor=#ffff80 vAlign=top>
+      <CENTER>Synchronous:</CENTER>
+      <CENTER>max. 8 MHz</CENTER></TD>
+    <TD align=middle bgColor=#ffff80 vAlign=top>
+      <CENTER>32 MBps</CENTER></TD></TR>
+  <TR>
+    <TD align=middle bgColor=#ffff80 vAlign=top>
+      <CENTER>VL. High speed bus,</CENTER>
+      <CENTER>used in 486s.</CENTER></TD>
+    <TD align=middle bgColor=#ffff80 vAlign=top>
+      <CENTER>1993</CENTER></TD>
+    <TD align=middle bgColor=#ffff80 vAlign=top>
+      <CENTER>32 bit</CENTER></TD>
+    <TD align=middle bgColor=#ffff80 vAlign=top>
+      <CENTER>Synchronous:</CENTER>
+      <CENTER>33-50 MHz</CENTER></TD>
+    <TD align=middle bgColor=#ffff80 vAlign=top>
+      <CENTER>100-160</CENTER>
+      <CENTER>MBps</CENTER></TD></TR>
+  <TR>
+    <TD align=middle bgColor=#ffff80 vAlign=top>
+      <CENTER>PCI. Intelligent,</CENTER>
+      <CENTER>advanced high speed bus.</CENTER></TD>
+    <TD align=middle bgColor=#ffff80 vAlign=top>
+      <CENTER>1993</CENTER></TD>
+    <TD align=middle bgColor=#ffff80 vAlign=top>
+      <CENTER>32 bit</CENTER></TD>
+    <TD align=middle bgColor=#ffff80 vAlign=top>
+      <CENTER>Asynchronous:</CENTER>
+      <CENTER>33 MHz</CENTER></TD>
+    <TD align=middle bgColor=#ffff80 vAlign=top>
+      <CENTER>132 MBps</CENTER></TD></TR>
+  <TR>
+    <TD align=middle bgColor=#ffff80 vAlign=top>USB. Modern, simple, and 
+      intelligent bus.</TD>
+    <TD align=middle bgColor=#ffff80 vAlign=top>1996</TD>
+    <TD align=middle bgColor=#ffff80 vAlign=top>Serial</TD>
+    <TD align=middle bgColor=#ffff80 vAlign=top>&nbsp; </TD>
+    <TD align=middle bgColor=#ffff80 vAlign=top>1.2 MBps</TD></TR>
+  <TR>
+    <TD align=middle bgColor=#ffff80 vAlign=top>FireWire (IEEE1394). 
+      <BR>High-speed I/O bus for storage, video etc.</TD>
+    <TD align=middle bgColor=#ffff80 vAlign=top>1999</TD>
+    <TD align=middle bgColor=#ffff80 vAlign=top>Serial</TD>
+    <TD align=middle bgColor=#ffff80 vAlign=top>&nbsp;</TD>
+    <TD align=middle bgColor=#ffff80 vAlign=top>80 MBps</TD></TR>
+  <TR>
+    <TD align=middle bgColor=#ffff80 vAlign=top>USB 2.0</TD>
+    <TD align=middle bgColor=#ffff80 vAlign=top>2001</TD>
+    <TD align=middle bgColor=#ffff80 vAlign=top>Serial</TD>
+    <TD align=middle bgColor=#ffff80 vAlign=top>&nbsp;</TD>
+    <TD align=middle bgColor=#ffff80 vAlign=top>12-40 MBps</TD></TR></TBODY></TABLE>
+<P>
+<DIV class=igen>
+<P><A href="http://www.mkdata.dk/click/module5c1a.htm">SCSI</A> is another type 
+of bus. 
+<P>
+<TABLE bgColor=#c0c0c0 border=0 cellPadding=5 cellSpacing=0 cols=2 
+  width="80%"><TBODY>
+  <TR>
+    <TD vAlign=top>
+      <H2>Learn more</H2></TD>
+    <TD width=200>
+      <DIV align=right>
+      <H3><A 
+      href="http://www.mkdata.dk/click/module2c1.htm#top">[top]</A></H3></DIV></TD></TR></TBODY></TABLE>
+<DIV class=igen>
+<P>
+<P>
+<DIV class=igen><A href="http://www.mkdata.dk/click/module2c2.htm">Next page</A>
+<P><A href="http://www.mkdata.dk/click/module2b2.htm">Previous page</A> 
+<P>5c</A> about the modern I/O bus called USB. 
+<P>Read <A href="http://www.mkdata.dk/click/module5b1.htm">module 5b</A> about 
+AGP and <A href="http://www.mkdata.dk/click/module5c3.htm">module 5c</A> about 
+Firewire. 
+<P>Read more about chip sets on the motherboard in <A 
+href="http://www.mkdata.dk/click/module2d01a.htm">module 2d</A> 
+<P>Read about RAM in <A href="http://www.mkdata.dk/click/module2e1.htm">module 
+2e</A> 
+<P>Read <A href="http://www.mkdata.dk/click/module4b1.htm">Module 4b</A> about 
+hard disks. 
+<P>Read <A href="http://www.mkdata.dk/click/module4c1.htm">Module 4c</A> about 
+optical media (CDROM and DVD). 
+<P>Read <A href="http://www.mkdata.dk/click/module4d.htm">Module 4d</A> about 
+super diskette and MO drives. 
+<P>Read <A href="http://www.mkdata.dk/click/module5a1.htm">module 5a</A> about 
+expansion cards, where we evaluate the I/O buses from the port side.
+<P>Read <A href="http://www.mkdata.dk/click/module7a1.htm">module 7a</A> about 
+monitors, and <A href="http://www.mkdata.dk/click/module7b1.htm">7b</A> on 
+graphics card. 
+<P>Read <A href="http://www.mkdata.dk/click/module7c1.htm">module 7c</A> about 
+sound cards, and <A href="http://www.mkdata.dk/click/module7d1.htm">7d</A> on 
+digital sound and music. 
+<P>
+<TABLE bgColor=#c0c0c0 cellPadding=0 cellSpacing=0>
+  <TBODY>
+  <TR>
+    <TD vAlign=top>
+      <TABLE bgColor=#c0c0c0 cellPadding=9 cellSpacing=0>
+        <TBODY>
+        <TR>
+          <TD vAlign=top>
+            <CENTER><A href="http://www.mkdata.dk/click/index.htm" 
+            target=_parent>[Main page]</A></CENTER></TD>
+          <TD></TD>
+          <TD vAlign=top>
+            <CENTER><A 
+          href="mailto:ClickAndLearn@mkdata.dk">[Mail]</A></CENTER></TD>
+          <TD vAlign=top>
+            <CENTER><A 
+            href="http://www.mkdata.dk/click/dictionary/index.htm">[Karbo's 
+            Dictionary]</A></CENTER></TD>
+          <TD vAlign=top><A 
+            href="http://www.mkdata.dk/click/w98/index.htm">[The Windows 98 
+            page]</A></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE>
+<DIV class=igen>
+<HR>
+<BR>Copyright (c) 1996-2000 by Michael B. Karbo. www.karbosguide.com. <IMG 
+height=18 hspace=3 src="3_files/Count.gif" width=50 NOSAVE>
+<SCRIPT language=JavaScript>
+<!--//hide script from old browsers
+document.write( "<I>Last edition "+ document.lastModified +"</I>");
+//end hiding contents -->
+</SCRIPT>
+ 
+<P>
+<P>
+<P><!-- BEGIN RICH-MEDIA BURST! CODE -->
+<SCRIPT language=JavaScript> 
+<!-- /* © 1997-1999 BURST! Media, LLC. All Rights Reserved.*/ 
+var TheAdcode = 'ba7445a'; 
+var bN = navigator.appName; 
+var bV = parseInt(navigator.appVersion); 
+var base='http://www.burstnet.com/'; 
+var Tv=''; 
+var agt=navigator.userAgent.toLowerCase(); 
+if (bV>=4) 
+{ts=window.location.pathname+window.location.search; 
+i=0; Tv=0; while (i< ts.length) 
+{ Tv=Tv+ts.charCodeAt(i); i=i+1; } Tv="/"+Tv;} 
+else {Tv=escape(window.location.pathname); 
+if( Tv.charAt(0)!='/' ) Tv="/"+Tv; 
+else if (Tv.charAt(1)=="/") Tv=""; 
+if( Tv.charAt(Tv.length-1) == "/") 
+Tv = Tv + "_";} 
+if (bN=='Netscape'){ 
+if ((bV>=4)&&(agt.indexOf("mac")==-1)) { document.write('<s'+'cript src="'+ base+'cgi-bin/ads/'+TheAdcode+'.cgi/RETURN-CODE/JS'+Tv+'">'); 
+document.write('</'+'script>'); } 
+else if (bV>=3) {document.write('<' +'a href="'+base+'ads/'+ TheAdcode+'-map.cgi'+Tv+'"target=_top>'); 
+document.write('<img src="' + base + 'cgi-bin/ads/' + TheAdcode + '.cgi' + Tv + '" ismap width="468" height="60"' + ' border="0" alt="Click Here"></a>');} 
+} 
+if (bN=='Microsoft Internet Explorer') 
+document.write('<ifr'+'ame id="BURST" src="'+base+'cgi-bin/ads/' + 
+TheAdcode + '.cgi' + Tv + '/RETURN-CODE" width="468" height="60"' + 
+'marginwidth="0" marginheight="0" hspace="0" vspace="0" ' + 
+'frameborder="0" scrolling="no"></ifr'+'ame>'); // --> 
+</SCRIPT>
+<NOSCRIPT><A href="http://www.burstnet.com/ads/ba7445a-map.cgi" target=_top><IMG 
+alt="Click Here" border=0 height=60 src="3_files/ace_ad1.gif" width=468></A> 
+</NOSCRIPT><!-- END BURST CODE --></P></DIV></DIV></DIV></DIV></DIV></DIV></DIV></DIV></DIV></BODY></HTML>

@@ -1,0 +1,95 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+
+<html>
+<head>
+	<title>Untitled</title>
+</head>
+
+<body>
+
+<!---------scrolloer news------->
+<CENTER><SCRIPT LANGUAGE="JavaScript" SRC="test.js"" TYPE="text/javascript"></SCRIPT>
+<ILAYER ID="main" WIDTH=&{scrollerwidth}; HEIGHT=&{scrollerheight}; BGCOLOR=&{scrollerbgcolor}; BACKGROUND=&{scrollerbackground}; VISIBILITY=hide>
+<LAYER ID="first" LEFT=0 TOP=1 WIDTH=&{scrollerwidth};>
+<SCRIPT LANGUAGE="JavaScript1.2">
+if (document.layers)
+document.write(messages[0])
+</SCRIPT></LAYER>
+<LAYER ID="second" LEFT=0 TOP=0 WIDTH=&{scrollerwidth}; VISIBILITY=hide>
+<SCRIPT LANGUAGE="JavaScript1.2">
+if (document.layers)
+document.write(messages[1])
+</SCRIPT></LAYER></ILAYER>
+
+<SCRIPT LANGUAGE="JavaScript1.2">
+if (document.all){
+document.writeln('<SPAN ID="main2" STYLE="position:relative;width:'+scrollerwidth+';height:'+scrollerheight+';overflow:hiden;background-color:'+scrollerbgcolor+' ;background-image:url('+scrollerbackground+')">')
+document.writeln('<DIV STYLE="position:absolute;width:'+scrollerwidth+';height:'+scrollerheight+';clip:rect(0 '+scrollerwidth+' '+scrollerheight+' 0);left:0;top:0">')
+document.writeln('<DIV ID="first2" STYLE="position:absolute;width:'+scrollerwidth+';left:0;top:1;">')
+document.write(messages[0])
+document.writeln('</DIV>')
+document.writeln('<DIV ID="second2" STYLE="position:absolute;width:'+scrollerwidth+';left:0;top:0;visibility:hidden">')
+document.write(messages[1])
+document.writeln('</DIV>')
+document.writeln('</DIV>')
+document.writeln('</SPAN>')
+}
+</SCRIPT>
+<BR><BR>
+
+<SCRIPT LANGUAGE="JavaScript" TYPE="text/javascript">
+<!--
+document.write("Last Modified <br>" + document.lastModified)
+// -->
+</SCRIPT>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!---user info----->
+<CENTER><FONT FACE="verdana" SIZE="1">
+<HR COLOR="#024070" SIZE="2" WIDTH="90%">
+<FONT FACE="verdana" SIZE="1"><B>[[-  Your information -]]</B>
+<HR COLOR="#024070" SIZE="2" WIDTH="90%">
+<CENTER>
+<B>Your IP (<!--#echo var="REMOTE_ADDR"-->) </B><BR><BR>
+<B>Your Browser: (<!--#echo var="HTTP_USER_AGENT"-->) </B><BR><BR>
+<B>HTTP Connection Status = <!--#echo var="HTTP_CONNECTION"--> </B><BR><BR>
+<TABLE BORDER="0"><TR><TD><CENTER>
+<FORM METHOD="POST" NAME="t">
+<FONT FACE="verdana" SIZE="1">Your screen width:<BR>
+<INPUT TYPE="text" SIZE="8" NAME="t1" VALUE="not supported" STYLE="background-color: #808080; color: #FFFFFF; background-image: url('cell.gif')"><BR><BR>
+<FONT FACE="verdana" SIZE="1">Your screen height:<BR>
+<INPUT TYPE="text" SIZE="8" NAME="t2" VALUE="not supported" STYLE="background-color: #808080; color: #FFFFFF; background-image: url('cell.gif')"><BR><BR>
+<FONT FACE="verdana" SIZE="1">Your screen color Depth:<BR>
+<INPUT TYPE="text" SIZE="8" NAME="t3" VALUE="not supported" STYLE="background-color: #808080; color: #FFFFFF; background-image: url('cell.gif')">
+</TR></TABLE></FORM>
+<SCRIPT>
+<!--
+function show(){
+if (!document.all&&!document.layers)
+return
+document.t.t1.value=screen.width
+document.t.t2.value=screen.height
+document.t.t3.value=screen.colorDepth
+}
+show()
+//-->
+</SCRIPT>
+<!----end user info----->
+
+</body>
+</html>

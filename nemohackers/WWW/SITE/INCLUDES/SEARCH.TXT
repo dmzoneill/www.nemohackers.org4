@@ -1,0 +1,4 @@
+<form method=post>
+Search: <input type=text name=seacrh size=10><br>
+<input type=submit value=search!>
+</form>

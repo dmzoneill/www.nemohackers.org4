@@ -1,0 +1,223 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 TRANSITIONAL//EN">
+<HTML>
+<HEAD>
+<TITLE>[ nemo hackers ]</TITLE>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1" CHARSET="iso-8859-1">
+<META NAME="keywords" CONTENT=
+"newbie, newbies, newbiesplace, newbiezplace, learn to hack, how to hack, how do i hack,hack hotmail, hacking hotmail, hack yahoo, hacking yahoo, hacking tools, hacking programs, hacking site, newby, newbeisplace, newbeizplace,">
+<META NAME="description" CONTENT="NewbiezPlace.com - Where newbies come to learn the art of hacking. This site is a vast resource for hacking methodology and toolz">
+<META NAME="robots" CONTENT="FOLLOW,INDEX">
+
+
+<!--#include virtual="../header.shtml" -->
+
+
+<TABLE BGCOLOR="#000000" BORDER="0" CELLPADDING="5" CELLSPACING="0" WIDTH="750"><TR>
+<TD BGCOLOR="#000000" VALIGN="top" WIDTH="160">
+<TABLE BGCOLOR="#1c1f22" BORDER="0" CELLPADDING="2" CELLSPACING="1" WIDTH="160">
+<TR BGCOLOR="#515468"><TD BGCOLOR="#024070" WIDTH="160">
+<CENTER><CENTER CLASS="small_uppercase">M E N U</CENTER></CENTER>
+</TD></TR>
+<TR BGCOLOR="#1c1f22">
+<TD WIDTH="160" BGCOLOR="#1c1f22" CELLPADDING="2">
+<TABLE BORDER="0" CELLPADDING="4" CELLSPACING="0" WIDTH="100%">
+<TR CLASS="small">
+<TD BGCOLOR="#1C1F22" HEIGHT="426" VALIGN="top">
+<CENTER>
+<!--#include virtual="../menu.shtml" -->
+</CENTER>
+
+</TD></TR></TABLE></TD></TR></TABLE>
+
+
+
+</TD>
+
+
+
+<!------------end left column--------------->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!------------right column--------------->
+
+
+
+
+
+
+
+<TD BGCOLOR=#000000 VALIGN=top>
+
+
+
+<TABLE BORDER=0 CELLPADDING=0 CELLSPACING=0 WIDTH="100%" HEIGHT="58">
+
+
+
+<TR VALIGN=top><TD BGCOLOR="#000000" HEIGHT="58">
+
+
+
+
+
+
+
+<!------------------11111111111111111111111111------------------>
+
+
+
+<TABLE BGCOLOR=#1c1f22 BORDER=0 CELLPADDING=0 CELLSPACING=1 WIDTH="100%" HEIGHT="170">
+
+
+
+<TR BGCOLOR=#515468><TD BGCOLOR="#024070" HEIGHT="16">
+
+
+
+
+
+</TD></TR>
+
+
+
+<TR BGCOLOR=#24252f>
+
+
+
+<TD HEIGHT="150">
+
+
+
+
+
+
+
+<TABLE BORDER=0 CELLPADDING=4 CELLSPACING=0 WIDTH="100%">
+
+
+
+<TR CLASS=small><TD BGCOLOR="#1C1F22">
+
+
+
+<table border=0>
+<tr>
+<td>
+<h3>Latest Hacks</h3>
+</td></tr>
+
+<tr><td>
+<!--#include virtual="hacks.txt"-->
+</td></tr>
+
+<tr><td>
+<font color=#546FFF>
+<h3>Post new: <a href="disclaim.txt">[ disclaimer ]</a></h3>
+</tr></td>
+<tr><td>
+<font color=#546FFF>
+<form method="POST" action="hack.php3">
+<p><b>Name:&nbsp;</b>&nbsp;<input type=text size=20 name="name"></p>
+<p><b>Date:(DD/MM/YY)&nbsp;</b>&nbsp;<input type=text size=20 value="DD/MM/YY" name="date"></p>
+<p><b>Hacked URL:&nbsp;</b>&nbsp;<input type=text size=40 value="http://" name="hacked"></p>
+<p><input type=submit value="Add"></p>
+</form>
+<p><center><font color=#546FFF>Coded by <a href="mailto:fod@supersane.com">f0d</a></p>
+</tr></td>
+</table>
+
+  </TD></TR></TABLE></TD></TR></TABLE>
+
+
+
+  </TD></TR></TABLE>
+
+
+
+<FONT CLASS=small FACE="Arial"><BR></FONT>
+
+
+
+
+
+
+
+
+
+
+
+            
+
+
+
+<!----------------333333333333333333333333------------------><!----------------4444444444444444444444------------------>					
+
+
+
+			
+
+
+</TD></TR></TABLE>
+
+</TD></TR></TABLE>
+</TD></TR></TABLE>
+
+
+
+<TABLE BGCOLOR=#000000 BORDER=0 CELLPADDING=0 CELLSPACING=0 WIDTH=750 HEIGHT=2>
+
+<TR BGCOLOR="#024070" HEIGHT=2><TD BGCOLOR="#024070" HEIGHT=2></TD></TR></TABLE>
+
+
+
+
+<!--#include virtual="../footer.shtml" -->
+
+
+
+
+
+
+
+
+</BODY></HTML>
+
+
+

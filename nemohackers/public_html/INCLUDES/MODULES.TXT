@@ -1,0 +1,8 @@
+<a href="tools/anonmail.php3">About</a><br>
+<a href="tools/anon.php3">Contacts</a><br>
+<a href="tools/bomb.php3">News</a><br>
+<a href="tools/bomb.php3">Topsites</a> <br>
+<a href="tools/bomb.php3">Affiliates</a>    <br>
+<br>
+
+<center>[ <a href="disclaimer.php">Disclaimer</a> ]</center>

@@ -1,0 +1,63 @@
+@charset "iso-8859-1";
+
+
+BODY		{
+	font-family: Verdana, Arial, Helvetica, sans-serif;
+	SCROLLBAR-FACE-COLOR: #000032;
+	SCROLLBAR-HIGHLIGHT-COLOR: #ffffff;
+	SCROLLBAR-SHADOW-COLOR: #ffffff;
+	SCROLLBAR-ARROW-COLOR: #003366;
+	SCROLLBAR-BASE-COLOR: #003366;
+	scrollbar-3d-light-color: #ffffff;
+	scrollbar-dark-shadow-color: #ffffff
+		}
+.small_uppercase{
+	FONT-FAMILY: Arial; 
+	FONT-SIZE: 8pt; 
+	FONT-WEIGHT: bold; 
+	TEXT-TRANSFORM: uppercase
+}
+.small		{
+font:8pt
+}
+.upper 		{
+	TEXT-TRANSFORM: uppercase
+}
+b.my		{
+	FONT-FAMILY:Verdana, Arial, Helvetica; 
+	color:#FFFFFF; 
+	font-size:8pt;
+	FONT-WEIGHT: normal;
+}
+span		{
+	FONT-FAMILY:Verdana, Arial, Helvetica; 
+	color:#dddddd; 
+	font-size:8pt;
+	FONT-WEIGHT: bold;
+}
+
+span.blinky {
+	text-decoration: blink;
+}
+
+.para1 { 
+margin-top: -28px; 
+margin-left: 42px; 
+font-family: verdana; 
+font-size: 10px; 
+font-weight: bold;
+line-height: 15px; 
+text-align: left; 
+color: #E1E1E1; 
+}
+
+.para2 { 
+margin-top: 2px; 
+margin-left: 2px; 
+font-family: Verdana; 
+font-weight: bold;
+font-size: 20px; 
+line-height: 20px; 
+text-align: left; 
+color: #0060A0; 
+}

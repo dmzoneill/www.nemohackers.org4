@@ -1,0 +1,18 @@
+This message is to confirm the removal of your
+email address: <E-MAIL> from the <LIST_NAME>
+Subscribe Me mailing list.
+
+We're sorry to see you go!
+
+If you feel you have received this notice in error,
+please visit the <LIST_NAME> Subscribe Me mailing list
+at our website: <WEBSITEURL>
+to add yourself automatically, or click on the link
+below to automatically re-subscribe yourself:
+
+http://<SERVER_NAME><CGI_URL>?a=1&l=<LIST>&e=<E-MAIL>
+
+Thank you,
+
+<LIST_NAME>
+

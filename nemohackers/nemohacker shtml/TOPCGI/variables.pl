@@ -1,0 +1,35 @@
+# WARNING -- NEVER MANUALY EDIT THIS FILE
+$topsite_name = "Nemohackers Top 50";
+$path = "/home/sites/site2/users/nemo/web/topcgi";
+$topsites_path = "/home/sites/site2/users/nemo/web/tophtml";
+$url = "http://www.nemohackers.com/tophtml";
+$url_to_cgi = "http://www.nemohackers.com/topcgi";
+$your_email = "neiller\@nemohackers.com";
+$smtp = "";
+$mail_prog = "/usr/bin/sendmail";
+ 
+$topsite_file = "topsites.html";
+$ranked = "50";
+$pages = "1";
+$how_rank = "total";
+$d_rank = "on";
+$d_hitsday = "on";
+$d_totalin = "on";
+$d_todayin = "";
+$d_weekin = "";
+$d_monthin = "";
+$d_totalout = "";
+$d_todayout = "";
+$d_weekout = "";
+$d_monthout = "";
+$credit = "on";
+$gateway = "on";
+$terms = "";
+$ip_time = "90";
+$update = "60";
+$reset_offset = "0";
+$cron = "on";
+$next_update = "on";
+$show_zero = "";
+$use_flock = "";
+1;

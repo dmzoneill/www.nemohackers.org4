@@ -1,0 +1,15 @@
+<a href="tools/anonmail.php3">Anonymous E-mailer</a><br>
+
+<a href="tools/anon.php3">Anonymous surfer</a><br>
+
+<a href="tools/bomb.php3">ICQ Bomber</a><br>
+
+<a href="tools/bomb.php3">Port Scanner</a> <br>
+
+<a href="tools/bomb.php3">Mail Bomber</a>    <br>
+
+<br>
+
+
+
+<center>[ <a href="disclaimer.php">Disclaimer</a> ]</center>

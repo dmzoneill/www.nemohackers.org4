@@ -1,0 +1,75 @@
+********************
+*  Linux FAQ's by  *
+*      F.o.D       * 
+********************
+
+
+Intro
+------
+
+I have written this mini tutorial for all users wishing to convert to Linux in the future,
+who may have some doubts or sceptisizims at this time.
+
+FAQ's
+------
+
+1. What is Linux?
+===================
+Like Windoze, Linux is an OS. (Operating System.) An OS is the software which runs on your
+computer, allowing hardware and software applications used on your computer to communicate.
+Linux is a version of the UNIX OS, which is built on Open Source Technology. This means that
+the Source Code is made public, so that any programmer can make changes how ever they like, 
+and then share it with other users. This open source technology has aloud distrobutions of 
+Linux, such as Redhat or SuSE to make their own versions of it all with their own Target 
+Audience.
+
+2. How do i pronunce Linux?
+=============================
+You pronunce Linux, Lin-NUCKS.
+
+3. Who first created Linux?
+==============================
+Linux was first programmed by a Finish programmer called, Linus Torvalds in 1991.
+
+4. Ok now I know what it is, where can i get it?
+================================================
+Below are some of the websites for Linux Distrubutions. Although if you have a slow internet
+connection, such as 56k, it is probally not such a good idea if you download 2x 650mb. I would 
+recommend to these people to go and buy a Boxed Set from your local software store, of which will 
+also include a manual, which is an essential for a first timer.
+
+Redhat Linux, www.redhat.com
+Calera Linux, www.caldera.com **This distro is for the developer and not a newbie**
+Debian GNU,   www.debian.org
+Linux Mandrake, www.linux-mandrake.com
+Slackware, www.slackware.com
+SuSE Linux, www.suse.com
+Armed Linux Workstation, www.armed.net
+
+These are some of the main stream distrobutions. I would recommend doing some research on each 
+individual distro before you make your choice as they all have there differences.
+
+5. So where can i get help for Linux. On the web?
+=================================================
+Yes, Linux is an Operating System built around communities on the web. Below are some useful 
+websites which can help you in your voyage through the OS:
+
+www.linuxdocs.org * The Linux Documentation Project. Geat Site
+www.linuxnewbie.org * Nice site for the newbie.
+www.linux.org 
+www.linux.com
+www.linuxonline.org
+www.newbiesplace.cjb.net * Will help you with any computer releated problems.
+
+6. I hear there are not many software applications availible for Linux. Is this true?
+=====================================================================================
+Rubbish. There are almost as much software for Linux as there is for Windoze. It's just mainly 
+free so you don't see it in your high street store. www.freshmeat.net is a nice site for Linux apps, 
+as is www.linuxgames.com for games. 
+
+7. Is Linux Easy? 
+===================
+Linux at first will look like russian to anyone who doesn't speak it. As most of us have grown up on Windoze
+we will be lost and confused, when we first see Linux. But if you read alot, and by attention you will get to
+grips after a while. Altough Linux is not for the average Joe Bloggs. You must have some knowledge to get it
+going.

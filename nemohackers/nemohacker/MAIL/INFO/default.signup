@@ -1,0 +1,15 @@
+This message is to confirm the addition of your
+email address: <E-MAIL> to the <LIST_NAME>
+Subscribe Me mailing list.
+
+If you feel you have received this notice in error,
+please visit the <LIST_NAME> Subscribe Me mailing list
+at our website: <WEBSITEURL>
+to remove yourself automatically, or click the link below:
+
+http://<SERVER_NAME><CGI_URL>?r=1&l=<LIST>&e=<E-MAIL>
+
+Thank you,
+
+<LIST_NAME>
+

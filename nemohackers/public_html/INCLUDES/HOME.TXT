@@ -1,0 +1,23 @@
+
+<br>
+<a href="about.php">About</a><br>
+
+<a href="staff.php">Staff</a><br>
+
+<a href="news.php">News</a><br>
+
+<a href="affil.php">Affiliates</a><br>
+
+<a href="dnet.php">Dnet Subteam</a><br>
+
+<a href="lectures.php">lectures</a><br>
+
+<a href="projects.php">Projects</a><br>
+
+<a href="upload.php">Upload</a><br>
+
+<br>
+
+
+
+<center>[ <a href="disclaimer.php">Disclaimer</a> ]</center>

@@ -1,0 +1,10 @@
+Nemohackers.com is back. <b>*cheers from users.</b> Nemohackers is somewhat unique now,
+as we have developed a 'school' system. You read some texts on a certain subject, 
+then you take an online test through some scripts that we have made and if you get 100%
+then you gain 'points'. 
+<br><br>Every time you gain points a certain script goes and
+checks to see how many points you have and then assigns you a rank in this
+forum based on how many points you have. There are 11 ranks that require
+between 1-100 points to get. <br><br>The more points the higher the rank on the
+boards. There will be elevated access granted based on rank and sometimes mod
+positions in certain forums.  We are constantly in need of  'test writers', so if your interested please contact us <a href=mailto:f0d@nemohackers.com>here.</a> <br><br>

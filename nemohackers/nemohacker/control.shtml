@@ -1,0 +1,25 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 TRANSITIONAL//EN">
+<HTML>
+<HEAD>
+<TITLE>[ nemo hackers ]</TITLE>
+<META HTTP-EQUIV="Content-Type" CONTENT="wwwserver/html-ssi" CHARSET="iso-8859-1">
+<META NAME="keywords" CONTENT=
+"newbie, newbies, newbiesplace, newbiezplace, learn to hack, how to hack, how do i hack, hack hotmail, hacking hotmail, hack yahoo, hacking yahoo, hacking tools, hacking programs, hacking site, newby, newbeisplace, newbeizplace,">
+<META NAME="description" CONTENT="NewbiezPlace.com - Where newbies come to learn the art of hacking. This site is a vast resource for hacking methodology and toolz">
+<META NAME="robots" CONTENT="FOLLOW,INDEX">
+
+<LINK REL=stylesheet TYPE="text/css" HREF="style.css" TITLE="syle">
+
+</head>
+
+<frameset rows="126,*">
+<frame name="top" src="top.shtml">
+<frame name="frame" src="http://www.nemohackers.com">
+</frameset>
+
+
+
+
+</BODY>
+</HTML>
+

@@ -1,0 +1,464 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 TRANSITIONAL//EN">
+<HTML>
+<HEAD>
+<TITLE>[ nemo hackers ]</TITLE>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1" CHARSET="iso-8859-1">
+<META NAME="keywords" CONTENT=
+"newbie, newbies, newbiesplace, newbiezplace, learn to hack, how to hack, how do i hack,hack hotmail, hacking hotmail, hack yahoo, hacking yahoo, hacking tools, hacking programs, hacking site, newby, newbeisplace, newbeizplace,">
+<META NAME="description" CONTENT="NewbiezPlace.com - Where newbies come to learn the art of hacking. This site is a vast resource for hacking methodology and toolz">
+<META NAME="robots" CONTENT="FOLLOW,INDEX">
+
+
+<!--#include virtual="header.shtml" -->
+
+
+<TABLE BGCOLOR="#000000" BORDER="0" CELLPADDING="5" CELLSPACING="0" WIDTH="750"><TR>
+<TD BGCOLOR="#000000" VALIGN="top" WIDTH="160">
+<TABLE BGCOLOR="#1c1f22" BORDER="0" CELLPADDING="2" CELLSPACING="1" WIDTH="160">
+<TR BGCOLOR="#515468"><TD BGCOLOR="#024070" WIDTH="160">
+<CENTER><CENTER CLASS="small_uppercase">M E N U</CENTER></CENTER>
+</TD></TR>
+<TR BGCOLOR="#1c1f22">
+<TD WIDTH="160" BGCOLOR="#1c1f22" CELLPADDING="2">
+<TABLE BORDER="0" CELLPADDING="4" CELLSPACING="0" WIDTH="100%">
+<TR CLASS="small">
+<TD BGCOLOR="#1C1F22" HEIGHT="426" VALIGN="top">
+<CENTER>
+<!--#include virtual="menu.shtml" -->
+</CENTER>
+
+
+
+</TD></TR></TABLE></TD></TR></TABLE>
+
+
+
+</TD>
+
+
+
+<!------------end left column--------------->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!------------right column--------------->
+
+
+
+
+
+
+
+<TD BGCOLOR=#000000 VALIGN=top>
+
+
+
+<TABLE BORDER=0 CELLPADDING=0 CELLSPACING=0 WIDTH="100%" HEIGHT="58">
+
+
+
+<TR VALIGN=top><TD BGCOLOR="#000000" HEIGHT="58">
+
+
+
+
+
+
+
+<!------------------11111111111111111111111111------------------>
+
+
+
+<TABLE BGCOLOR=#1c1f22 BORDER=0 CELLPADDING=0 CELLSPACING=1 WIDTH="100%">
+
+
+
+<TR BGCOLOR=#515468><TD BGCOLOR="#024070">
+
+
+
+<CENTER CLASS=small_uppercase><SPAN CLASS=small>
+
+
+
+<FONT COLOR=#80899f FACE="Arial"><B> . </B></FONT><B>
+
+
+
+<FONT COLOR=#b1b6c5 FACE="Arial"> : </FONT>
+
+
+
+<FONT FACE="Arial">
+
+
+
+<FONT COLOR=#ffffff> : P <FONT COLOR=#b1b6c5> · </FONT>R <FONT COLOR=#b1b6c5> ·
+
+
+
+</FONT>O <FONT COLOR=#b1b6c5> · </FONT>G <FONT COLOR=#b1b6c5> · </FONT>R · a
+
+
+
+· m · I · n · g</FONT> <FONT COLOR=#ffffff> : </FONT>
+
+
+
+<FONT COLOR=#b1b6c5> :
+
+
+
+<FONT COLOR=#80899f> . </FONT></FONT></FONT></B></SPAN></CENTER>
+
+
+
+</TD></TR>
+
+
+
+<TR BGCOLOR=#24252f>
+
+
+
+<TD>
+
+
+
+
+
+
+
+<TABLE BORDER=0 CELLPADDING=4 CELLSPACING=0 WIDTH="100%">
+
+
+
+<TR CLASS=small><TD BGCOLOR="#1C1F22">
+
+
+
+<FONT FACE="Verdana">Having the knowledge of a programming language is
+
+
+
+essential. Below are various tutorials on languages, compilers etc.<BR><BR>
+
+
+
+
+
+
+
+There has been a nice development for users of Linux. Kylix, the hot nice RAD tool fot Linux looks set
+
+
+
+to be a big seller. Looks great! For more infomation about Kylix visit: <A HREF="http://www.borland.com/kylix">http://www.borland.com/kylix</A>
+
+
+
+  
+
+
+
+<BR><BR><FONT FACE="Verdana"><A HREF="compile.shtml">Compiling code</A></FONT></P>
+
+
+
+<P><FONT FACE="Verdana"><A HREF="c++.shtml">C&nbsp;</A>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+
+<FONT COLOR="#FFFFFF"><B>Rating 
+
+
+
+            *****</B><BR>
+
+
+
+            C (ANSI) is probably the best language to learn as you 
+
+
+
+            will find that the other languages will be similiar and in turn will 
+
+
+
+            be easy to grasp. As linux is open source you could learn greatly 
+
+
+
+            from it! Alotough if you are going to learn C++ it will have the same
+
+
+
+effect, altough it is maybe better now to learn C++ as it is more Object
+
+
+
+Orientated.
+
+
+
+            </FONT></FONT></P>
+
+
+
+
+
+
+
+<P><FONT FACE="Verdana"><A HREF="c++.shtml">C++&nbsp;</A>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+
+<FONT COLOR="#FFFFFF"><B>Rating 
+
+
+
+            *****</B><BR>
+
+
+
+C++ is the Object Orientated Version of C. More up to date with little added. Again is ANSI which means it is multi platformed. I would seriously
+
+
+
+recommend this if you are serious about learn a language.		
+
+
+
+            </FONT></FONT></P>
+
+
+
+			
+
+
+
+			<P><FONT FACE="Verdana"><A HREF="vb.shtml">Visual Basic 6.0&nbsp;</A>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+
+<FONT COLOR="#FFFFFF"><B>Rating 
+
+
+
+            ***</B><BR>
+
+
+
+Visual Basic (VB) is a RAD (Rapid Application Development) tool, that allows programmers to create Windows applications in very little time.   It is the most popular programming language in the world, and has more programmers and lines of code than any of its nearest competitors. 		
+
+
+
+            </FONT></FONT></P>
+
+
+
+
+
+
+
+			<P><FONT FACE="Verdana"><A HREF="cgi.shtml">CGI&nbsp;</A>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+
+<FONT COLOR="#FFFFFF"><B>Rating 
+
+
+
+            *****</B><BR>
+
+
+
+The Common Gateway Interface (CGI) specification lets Web servers execute other programs and incorporate their output into the text, graphics, and audio sent to a Web browser. The server and the CGI program work together to enhance and customize the World Wide Web's capabilities. 
+
+
+
+            </FONT></FONT></P>
+
+
+
+			
+
+
+
+			<P><FONT FACE="Verdana"><A HREF="perl.shtml">Perl</A>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+
+<FONT COLOR="#FFFFFF"><B>Rating 
+
+
+
+            *****</B><BR>
+
+
+
+You've surely heard of the Internet and the World Wide Web by now. If you haven't, now may be a good time to put this book back on the shelf and check out one of the many introductory volumes about the Web instead. After you've used the Web for a while, you may find yourself producing Web pages for other people to use; then would be a good time to come back to this book.
+
+
+
+            </FONT></FONT></P>
+
+
+
+			
+
+
+
+			<P><FONT FACE="Verdana"><A HREF="sql.shtml">SQL</A>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+
+<FONT COLOR="#FFFFFF"><B>Rating 
+
+
+
+            *****</B><BR>
+
+
+
+The initials stand for Structured Query Language, and the language itself is often referred to as "sequel." It was originally developed for IBM's DB2 product (a relational database management system, or RDBMS, that can still be bought today for various platforms and environments). In fact, SQL makes an RDBMS possible. SQL is a nonprocedural language, in contrast to the procedural or third-generation languages (3GLs) such as COBOL and C that had been created up to that time. 
+
+
+
+and check out one of the many introductory volumes about the Web instead. After you've used the Web for a while, you may find yourself producing Web pages for other people to use; then would be a good time to come back to this book.
+
+
+
+            </FONT></FONT></P>
+
+
+
+			
+
+
+
+						<P><FONT FACE="Verdana"><A HREF="asp.shtml">ASP</A>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+
+
+
+<FONT COLOR="#FFFFFF"><B>Rating 
+
+
+
+            *****</B><BR>
+
+
+
+Well first of all, ASP stands for Active Server Pages. ASP is a server side technology, this means it works on any web browser, because all the work is done at the web server end. 
+
+
+
+Essentially ASP pages are just normal HTML with scripts embedded in them. You can write your scripts in VBScript, Javascript or any language which is ActiveScript compatible. 
+
+
+
+
+
+
+
+            </FONT></FONT></P>
+
+
+
+  </TD></TR></TABLE></TD></TR></TABLE>
+
+
+
+  </TD></TR></TABLE>
+
+
+
+<FONT CLASS=small FACE="Arial"><BR></FONT>
+
+
+
+            
+
+
+
+<!----------------333333333333333333333333------------------><!----------------4444444444444444444444------------------>					
+
+
+
+			
+
+
+
+
+
+</TD></TR></TABLE>
+
+
+
+
+</TD></TR></TABLE></TD></TR></TABLE>
+
+
+
+<TABLE BGCOLOR=#000000 BORDER=0 CELLPADDING=0 CELLSPACING=0 WIDTH=750 HEIGHT=2>
+
+
+
+<TR BGCOLOR="#024070" HEIGHT=2><TD BGCOLOR="#024070" HEIGHT=2></TD></TR></TABLE>
+
+
+<!--#include virtual="footer.shtml" -->
+
+
+
+
+
+
+
+
+</BODY></HTML>
+
+
+

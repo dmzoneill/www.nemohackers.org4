@@ -1,0 +1,135 @@
+                          ||---------------------------||
+                          || IP Addresses, and Pinging ||
+                          ||---------------------------||                             
+ 
+                                By: B1nary & F.o.D
+
+      
+*** Okay now, This didn't originally include what an IP is, but I thought that I would add it as 
+
+B1nary is doing homework! lol.
+
+Every computer which is on a network, (Packet Switched) has an IP. These are based on the TCP/IP 
+
+protocol. An IP address is needed to identify a computer. 
+
+An IP is also essential in the relay and routing of data successfully.
+
+** So now that I know what an IP is. How is it structured?
+
+It will have two fields:
+
+1). The first is the network address: This is automatically assigned by InterNIC.(Internet 
+
+Network Information Center). Currently ISP by a range and distribute them to individual users.
+
+2). The second is the station address. Assigned to you be the system administrator.  Thats a 
+
+brief description of the structure of an IP. R a v e N wrote; an in depth tutorial on it at 
+
+BlackSun, so for further reading I recommend it. (www.newbiesplace.cjb.net)
+
+
+** IP Sniffing **
+
+There's several ways of going about this.
+
+1). You can get a direct connection through ICQ, open up your MS-DOS (Microsoft Disc Operating 
+
+System) Prompt, found by clicking start and going to programs.  Type in Netstat -n this will give 
+
+you a list of hosts which you are currently connected to.
+
+2). Finding out, which IP is your victims, is pretty easy.  All you need to do is find out which 
+
+port your messenger or whatever is running on, and find it under the "Foreign Address" column in 
+
+Netstat.  Say, for example, ICQ runs on port 1024, you find the foreign IP on that port, and bang, 
+
+there you go.
+
+*Remember: You'll need to get a direct connection with a user before you can find their IP.  MSN 
+
+and AOL run through proxies, so you'll need to establish a direct connection by uploading 
+
+something to them or whatever. (At least I think this will work, I haven't really tried it yet.) 
+
+Or if you would rather not get your hands dirty and go into DOS, you could get a common Trojan 
+
+called SubSeven (http://www.newbiesplace.cjb.net) and that includes a program which will convert 
+
+UIN's (ICQ numbers) into IP addresses.  Handy if you don't want to let them know you are about, 
+
+or if you are timed in DOS.
+
+*** Okay, a few other sneaky ways of getting IP addresses if your prey is a moron.
+
+1). Ask him to click start, click run, and type in WINIPCFG, then tell him/her to give you the IP 
+
+address, make something up like, "I need it for a science/technology project."  Just something 
+
+dumb, and simple.
+
+2). Ask them to go to http://www.whatismyip.com and tell you what the big number is, hehe.  I 
+
+forgot to mention; if you're in a chat like IRC (Internet Relay Chat) you can simply type 
+
+/dns personsnamehere and their IP will appear in your status window if you have a client such as
+
+mIRC (http://www.mirc.com).
+
+
+** Pinging **
+
+	After you get an IP address you can ping it.  This works better than a nuker because, 
+
+well, it actually works sometimes.  Nukers are old and outdated by about 5 years or so, so most 
+
+of them don't work.  Open up a MS-DOS Prompt and if you're just curious about different ping 
+
+commands and what they do type Ping -?  And for Netstat, type Netstat -?
+
+Now, with the IP address type in Ping -l xxx.xx.xx.xx (the x's being the variables for the IP) 
+
+and hit enter.  This will ping and/or send packets to the specified user; in turn it slows down 
+
+and may possibly even disconnect their Internet connection.  Pinging and crap is kind of lame, 
+
+but hey, the net gets boring, some people are annoying and you just need something to do.  
+
+
+** Sniffing a Server **
+
+
+Most of this tutorial has been about sniffing the IP of a personal Computer. Lets go further now.
+
+If you wish to learn the IP address of a server, it's simple. But remember that the IP address of 
+
+a server is usually Static. (Meaning that it is always the same, whereas a 'Dynamic' address, 
+
+commonaly with Dial ups, always change when you log on).  So you have the URL of a site. Say, 
+
+www.host.com - Now you need to resolve this to an IP.  There are many ways of resolving this. 
+
+One is a DNS resolver which comes with many cracking tools, such as Access Driver 
+
+(www.newbiesplace.cjb.net). 
+
+That will return the address of www.host.com to an IP such as: 64.156.187.1  This is your 
+
+address. If you wish to get fancy you could always go to your MS-DOS prompt and type: 
+
+ping www.host.com that will also return the IP of the host.
+
+We hope that this tutorial has been of some assistance to those of you who have read it.  If you
+
+happen to find a large flaw and/or mistake, please feel free to contact us, and tell us.  Good
+
+day and God bless!
+
+
+-B1nary & F.o.D-
+
+Email B1nary @  the_wizard_05@usa.net
+
+Email F.o.D  @  fod@q3arena.com

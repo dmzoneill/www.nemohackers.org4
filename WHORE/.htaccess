@@ -1,0 +1,6 @@
+AuthUserFile /home/nemo/public_html/whore/.htpasswd
+AuthName "admin"
+AuthType Basic
+<Limit GET POST>
+require valid-user
+</Limit> 

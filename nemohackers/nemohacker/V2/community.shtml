@@ -1,0 +1,207 @@
+<!-- Copy our crap and die! -->
+
+<html><head>
+
+<style type="text/css">
+BODY {background-image: url(images/top.jpg); background-repeat: no-repeat;}
+
+A:hover
+{ text-decoration: none; color: #FF200E; }
+
+</style>
+
+<title>[ nemohackers ]</title></head>
+
+<BODY bgColor=#ffffff bottomMargin=0 leftMargin=0 rightMargin=0 text=#000000 topMargin=0 marginheight="0" 
+marginwidth="0" link="#2564c4" vlink="#2564c4">
+
+<table height="57">
+<tr><td></td></tr></table>
+
+<table bgColor="#003366" height="2" width="100%" cellpadding="0" cellspacing="0">
+<tr><td></td></tr></table>
+
+<table bgColor="#000032" width="100%" cellpadding="0" cellspacing="0">
+<tr>
+    <td width="10" bgColor="#000032">.</td>
+    <td align="right">
+        <SCRIPT language=JavaScript src="roll.js"></SCRIPT>
+        <A HREF="index.shtml" onMouseOver="over()" onMouseOut="out()"><IMG SRC="images/home.jpg" NAME="home" BORDER=0></A><A HREF="javascript:void();" onMouseOver="over1()" onMouseOut="out()"><IMG SRC="images/1.jpg" NAME="learn" BORDER=0></A><A HREF="community.shtml" onMouseOver="over2()" onMouseOut="out()"><IMG SRC="images/2.jpg" NAME="com" BORDER=0></A><A HREF="txts.shtml;" onMouspt:void();" onMouseOver="over3()" onMouseOut="out()"><IMG SRC="images/end.jpg" NAME="txts" BORDER=0></A></td><td width="10" bgColor="#000032">.
+    </td>
+</tr>
+</table>
+
+<table bgcolor="#003366" width="100%" cellpadding="0" cellspacing="0"><tr>
+<td width="10" bgColor="#000032">.</td><td>
+<font face="Verdana, Helvetica" size=1>
+<script language="javascript">
+date=Date()
+document.write("&nbsp;&nbsp;&nbsp;<font color='white'>"+date+"</font>")
+</script>
+</td><td width="10" bgColor="#000032">.</td></tr></table>
+<table border="0" cellpadding="0" cellspacing="0" width="100%"><tr valign="top">
+<td width="10" bgColor="#000032">.</td>
+<td width="10" bgcolor="#003366">.</td>
+<td width="170">
+
+<table border="0" bordercolor="#000000" cellspacing="0" cellpadding="5" width="100%">
+<tr><td>
+<table border="1" bordercolor="#003366" cellspacing="1" cellpadding="2" width="100%">
+<tr><td background="images/table.jpg">
+<font face="Verdana, Helvetica" color="white" size="2"><b>
+<center><b>About Nemohackers</b></font>
+</td></tr><tr><td>
+<font face="Verdana, Helvetica" color="Black" size="1">
+<p>This site is not dedicated to the illegal activities in
+which you proclaim to be a thrill. "It is about computer exploration; The power to adapt and overcome obstacles
+ and security measures; For the personal benefit, satisfaction, and the rush of entry, into
+an unknown and constantly changing technological world.<b>"WE ARE HACKERS"</b> - <i>Proxykillah</i></p>
+
+</td>
+</tr>
+</table>
+
+<br>
+<table border="1" bordercolor="#003366" cellspacing="0" cellpadding="2" width="100%">
+<tr><td background="images/table.jpg">
+<font face="Verdana, Helvetica" color="white" size="2">
+<p align="center"><b>User Login</b></font>
+</td></tr><tr><td>
+<font face="Verdana, Helvetica" color="black" size="2">
+username:<br>
+<input type="text" name="user" size="10"><br>
+password:<br>
+<input type="password" name="password" size="10"><br>
+<input type="submit" value="Login"><br>
+<font face="Verdana, Helvetica" color="black" size="1">
+<div align="center">[ <a href="new">New Accont</a> ]<br>
+[ <a href="lost">Lost Password</a> ]</center></font></div>
+</td>
+</tr>
+</table>
+
+<br>
+<table border="1" bordercolor="#003366" cellspacing="0" cellpadding="2" width="100%">
+<tr><td background="images/table.jpg">
+<font face="Verdana, Helvetica" color="white" size="2">
+<p align="center"><b>Online Tools</font>
+</td></tr><tr><td>
+<font face="Verdana, Helvetica" color="black" size="1">
+
+<a href="tools/anonmail.php3">Anonymous E-mailer</a><br>
+<a href="tools/anon.php3">Anonymous surfer</a><br>
+<a href="tools/bomb.php3">Mail Bomber</a><br>    <br>
+
+<center>[ <a href="List all">List All</a> ]</center>
+
+</td>
+</tr>
+</table>
+<br>
+
+</td>
+</tr>
+</table>
+
+
+
+
+</td>
+<td width="*">
+
+<!-- Community -->
+
+<table border="0" bordercolor="#000000" cellspacing="0" cellpadding="5" width="100%">
+<tr><td>
+<table border="1" bordercolor="#003366"  cellspacing="0" cellpadding="4" width="100%">
+<tr><td background="images/table.jpg">
+<font face="Verdana, Helvetica" color="white" size="2">
+<center><b>
+Community</b></font>
+</td></tr><tr><td>
+<font face="Verdana, Helvetica" size=2>
+Welcome to the <b>nemohackers</b> community area.<br><br>
+<div align=center>
+<table width="60%" border="0">
+<tr>
+	<td width="20%"><font face="Verdana, Helvetica" size="2"><a href="http://forums.nemohackers.com">Forums</a></td>	
+	<td width="*"><font face="Verdana, Helvetica" color="black" size="2">
+	Exchange knowledge, help others, well you know what to do :)</td>
+</tr>
+<tr>	
+	<td width="20%"><font face="Verdana, Helvetica" size="2"><a href="http://www.nemohackers.com/chat">Chat</a></td>
+	<td width="*"><font face="Verdana, Helvetica" size="2">
+	A java based IRC client, for where we hang out. <b>us.chatjunkies.org #nemohackers</b></td>
+</tr>
+<tr>	
+	<td width="40%"><font face="Verdana, Helvetica" size="2"><a href="http://www.nemohackers.com/guru">Who Wants to be a guru?</a></td>
+	<td width="*"><font face="Verdana, Helvetica" size="2">
+	Who wants to be a Guru? (Our very own geek spoof on Who wants to be a millionaire)</td>
+</tr>
+</table>
+</div>
+<br>
+
+</td>
+</tr>
+
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+
+<!-- News and development -->
+
+
+<table border="0" bordercolor="#000000" cellspacing="0" cellpadding="5" width="100%">
+<tr><td>
+<table border="1" bordercolor="#003366"  cellspacing="0" cellpadding="4" width="100%">
+<tr><td background="images/table.jpg">
+
+</td></tr><tr><td>
+<b>Search Nemohackers: &nbsp;&nbsp; <input type="text" name="search" size=20 maxlength=50>&nbsp;<input type="submit" value="Search">
+
+</td>
+</tr>
+
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+
+<br>
+</td>
+
+
+
+
+<td width="10" bgcolor="#003366">.</td>
+<td width="10" bgColor="#000032">.</td>
+</tr></table>
+
+
+<TABLE border="0" cellPadding="0" cellspacing="0" width="100%" bgColor="#003366">
+<TR bgColor="#003366"><td width="10" bgColor="#000032">.</td>
+<Td height="15"><center><FONT color="#ffffff" size="2">© 2001 Nemohackers.com || <a href="staff.html">Staff</a></FONT>
+</TD><td width="10" bgColor="#000032">.</td></TR></TABLE>
+
+<table bgColor="#000032" width="100%" cellpadding="0" cellspacing="0"><tr>
+<td bgColor="#000032" width="10">.</td><td bgColor="#000032" width="*" align="right">
+<A HREF="javascript:history.back(-1);" onMouseOver="over4()" onMouseOut="out()"><img src="images/back.jpg" name="back" border="0"></A><A HREF="javascript:history.forward(+1);" onMouseOver="over5()" onMouseOut="out()"><img src="images/forward.jpg" name="forward" border="0"></A></td>
+<td width="10">.</td></tr></table>
+
+</body>
+</html>
+
+
+</body>
+</html>
+
+
+
+
+

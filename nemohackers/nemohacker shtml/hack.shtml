@@ -1,0 +1,34 @@
+<html>
+<head>
+  <title>Latest Hacks</title>
+</head>
+<body bgcolor="black" text="#17550C" link="#325AA0" alink="#325AA0" vlink="#325AA0">
+<table border=0>
+<tr>
+<td>
+<h3>Latest Hacks</h3>
+</td></tr>
+
+<tr><td>
+<!--#include virtual="hacks.txt"-->
+</td></tr>
+
+<tr><td>
+<h3>Post new: <a href="disclaim.txt">[ disclaimer ]</a></h3>
+</tr></td>
+<tr><td>
+<form method="POST" action="hack.php3">
+<p><b>Name:&nbsp;</b>&nbsp;<input type=text size=20 name="name"></p>
+<p><b>Date:(DD/MM/YY)&nbsp;</b>&nbsp;<input type=text size=20 value="DD/MM/YY" name="date"></p>
+<p><b>Hacked URL:&nbsp;</b>&nbsp;<input type=text size=40 value="http://" name="hacked"></p>
+<p><input type=submit value="Add"></p>
+</form>
+</tr></td>
+</table>
+</body>
+</html>
+
+
+
+
+

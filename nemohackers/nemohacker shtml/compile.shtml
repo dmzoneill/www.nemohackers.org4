@@ -1,0 +1,339 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 TRANSITIONAL//EN">
+<HTML>
+<HEAD>
+<TITLE>[ nemo hackers ]</TITLE>
+<META HTTP-EQUIV="Content-Type" CONTENT="text/html; charset=iso-8859-1" CHARSET="iso-8859-1">
+<META NAME="keywords" CONTENT=
+"newbie, newbies, newbiesplace, newbiezplace, learn to hack, how to hack, how do i hack,hack hotmail, hacking hotmail, hack yahoo, hacking yahoo, hacking tools, hacking programs, hacking site, newby, newbeisplace, newbeizplace,">
+<META NAME="description" CONTENT="NewbiezPlace.com - Where newbies come to learn the art of hacking. This site is a vast resource for hacking methodology and toolz">
+<META NAME="robots" CONTENT="FOLLOW,INDEX">
+
+
+<!--#include virtual="header.shtml" -->
+
+
+<TABLE BGCOLOR="#000000" BORDER="0" CELLPADDING="5" CELLSPACING="0" WIDTH="750"><TR>
+<TD BGCOLOR="#000000" VALIGN="top" WIDTH="160">
+<TABLE BGCOLOR="#1c1f22" BORDER="0" CELLPADDING="2" CELLSPACING="1" WIDTH="160">
+<TR BGCOLOR="#515468"><TD BGCOLOR="#024070" WIDTH="160">
+<CENTER><CENTER CLASS="small_uppercase">M E N U</CENTER></CENTER>
+</TD></TR>
+<TR BGCOLOR="#1c1f22">
+<TD WIDTH="160" BGCOLOR="#1c1f22" CELLPADDING="2">
+<TABLE BORDER="0" CELLPADDING="4" CELLSPACING="0" WIDTH="100%">
+<TR CLASS="small">
+<TD BGCOLOR="#1C1F22" HEIGHT="426" VALIGN="top">
+<CENTER>
+<!--#include virtual="menu.shtml" -->
+</CENTER>
+
+</TD></TR></TABLE></TD></TR></TABLE>
+
+
+
+</TD>
+
+
+
+<!------------end left column--------------->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!------------right column--------------->
+
+
+
+
+
+
+
+<TD BGCOLOR=#000000 VALIGN=top>
+
+
+
+<TABLE BORDER=0 CELLPADDING=0 CELLSPACING=0 WIDTH="100%" HEIGHT="58">
+
+
+
+<TR VALIGN=top><TD BGCOLOR="#000000" HEIGHT="58">
+
+
+
+
+
+
+
+<!------------------11111111111111111111111111------------------>
+
+
+
+<TABLE BGCOLOR=#1c1f22 BORDER=0 CELLPADDING=0 CELLSPACING=1 WIDTH="100%" HEIGHT="170">
+
+
+
+<TR BGCOLOR=#515468><TD BGCOLOR="#024070" HEIGHT="16">
+
+
+
+<CENTER CLASS=small_uppercase><SPAN CLASS=small>
+
+
+
+<FONT COLOR=#80899f FACE="Arial"><B> . </B></FONT><B>
+
+
+
+<FONT COLOR=#b1b6c5 FACE="Arial"> : </FONT>
+
+
+
+<FONT FACE="Arial">
+
+
+
+<FONT COLOR=#ffffff> : C <FONT COLOR=#b1b6c5>· </FONT>O <FONT COLOR=#b1b6c5>· </FONT>M
+
+
+
+<FONT COLOR=#b1b6c5>· </FONT>P <FONT COLOR=#b1b6c5>· </FONT>I · L · I · N
+
+
+
+· G</FONT> <FONT COLOR=#ffffff> : </FONT>
+
+
+
+<FONT COLOR=#b1b6c5> :
+
+
+
+<FONT COLOR=#80899f> . </FONT></FONT></FONT></B></SPAN></CENTER>
+
+
+
+</TD></TR>
+
+
+
+<TR BGCOLOR=#24252f>
+
+
+
+<TD HEIGHT="150">
+
+
+
+
+
+
+
+<TABLE BORDER=0 CELLPADDING=4 CELLSPACING=0 WIDTH="100%">
+
+
+
+<TR CLASS=small><TD BGCOLOR="#1C1F22">
+
+
+
+<FONT COLOR="#FFFFFF" FACE="Verdana" SIZE="1"><B>C++ and C:</B></FONT><BR><BR>
+
+
+
+<FONT COLOR="#FFFFFF" FACE="Verdana" SIZE="1"><B><img src="images/pen.gif" BORDER="0">&nbsp;&nbsp;<U>Linux</B></U></FONT></P>
+
+
+
+<P><FONT COLOR="#FFFFFF" FACE="Verdana" SIZE="1">Use the command: <B>g++ filename.cpp -o filname </B>Then
+
+
+
+just use the command: <B>./filename</B></FONT></P>
+
+
+
+<FONT COLOR="#FFFFFF" FACE="Verdana" SIZE="1"> Soon Borland are releasing a hot new RAD Tool for Linux
+
+
+
+called kylix. It will include a Nix version of Visual Basic as well as a nice envioment to code C, C++, Perl
+
+
+
+and many other languages. Worth the wait.<BR><BR>
+
+
+
+<FONT COLOR="#FFFFFF" FACE="Verdana" SIZE="1"> For more infomation about Kylix visit: http://www.borland.com/kylix 
+
+
+
+
+
+
+
+<P><FONT FACE="Verdana"><B><img src="images/winblows.gif">&nbsp;&nbsp;<U>Windoze</B></FONT></U><FONT FACE="Verdana"><B>&nbsp;</B>&nbsp;</FONT></P>
+
+
+
+<P><FONT COLOR="#FFFFFF" FACE="Verdana" SIZE="1">There are many compilers in
+
+
+
+windows. <A HREF="http://www.borland.com">Borland</A> is probably one of the
+
+
+
+most common. <A HREF="http://www.msdn.com">Microsoft Visual C++</A> is another
+
+
+
+big name, of which alot of major games are compiled in.&nbsp;</FONT></P>
+
+
+
+<P><FONT COLOR="#FFFFFF" FACE="Verdana" SIZE="1"><A HREF="http://www.delorie.com/djgpp">DJGPP</A>
+
+
+
+is an excellent compiler, but it is hard to set up because of all the packages.
+
+
+
+But is very good with Graphic Programing.</FONT></P>
+
+
+
+<P><FONT COLOR="#FFFFFF" FACE="Verdana" SIZE="1"><A HREF="http://www.bloodshed.net/devcpp.html">Dev-C++</A>
+
+
+
+is a very nice environment. Very easy to set up.</FONT></P>
+
+
+
+
+
+
+
+<FONT COLOR="#FFFFFF" FACE="Verdana" SIZE="1"><B><U>Visual Basic:</B></U><BR><BR>
+
+
+
+To code and compile programs written in Microsift Visual Basic you must use there editor, obviously named:
+
+
+
+Microsoft Visual Basic. Then you must compile it, using that program. Very simple to use and easy to set up.
+
+
+
+If you do not wish to pay for it then, you can get it from your local warez site or FTP. Not that we would
+
+
+
+recommend that. :) 
+
+
+
+At the moment Visual Basic is a Mircosoft language and is only availible and the Mircosoft platform. This is soon set to change as Borland, are due to release their Kylix envioment, which will be including a small nix version
+
+
+
+of VB. 
+
+
+
+  </TD></TR></TABLE></TD></TR></TABLE>
+
+
+
+  </TD></TR></TABLE>
+
+
+
+<FONT CLASS=small FACE="Arial"><BR></FONT>
+
+
+
+
+
+
+
+
+
+
+
+            
+
+
+
+<!----------------333333333333333333333333------------------><!----------------4444444444444444444444------------------>					
+
+
+
+			
+
+
+</TD></TR></TABLE>
+
+</TD></TR></TABLE>
+</TD></TR></TABLE>
+
+
+
+<TABLE BGCOLOR=#000000 BORDER=0 CELLPADDING=0 CELLSPACING=0 WIDTH=750 HEIGHT=2>
+
+<TR BGCOLOR="#024070" HEIGHT=2><TD BGCOLOR="#024070" HEIGHT=2></TD></TR></TABLE>
+
+
+
+
+<!--#include virtual="footer.shtml" -->
+
+
+
+
+
+
+
+
+</BODY></HTML>
+
+
+

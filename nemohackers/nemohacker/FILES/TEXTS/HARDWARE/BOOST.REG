@@ -1,0 +1,69 @@
+REGEDIT4
+
+[HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\VxD\MSTCP]
+"DefaultRcvWindow"="4288"
+"DefaultTTL"="64"
+"PMTUDiscovery"=dword:00000000
+"PMTUBlackHoleDetect"=dword:00000000
+"Tcp1323Opts"=dword:00000003
+
+[HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Class\NetTrans\0000]
+"MaxMTU"="576"
+
+[HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Class\NetTrans\0001]
+"MaxMTU"="576"
+
+[HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Class\NetTrans\0002]
+"MaxMTU"="576"
+
+[HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Class\NetTrans\0003]
+"MaxMTU"="576"
+
+[HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Class\NetTrans\0004]
+"MaxMTU"="576"
+
+[HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Class\Net\0000]
+"IPMTU"="576"
+
+[HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Class\Net\0001]
+"IPMTU"="576"
+
+[HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Class\Net\0002]
+"IPMTU"="576"
+
+[HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Class\Net\0003]
+"IPMTU"="576"
+
+[HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Class\Net\0004]
+"IPMTU"="576"
+
+[HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\VxD\MSTCP\Parameters]
+"SackOpts"="1"
+"MaxDupAcks"=dword:00000003
+
+[HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Class\Modem\0000]
+"Default"=hex:3c,00,00,00,00,00,00,00,00,00,00,00,01,00,00,00,40,01,00,00
+"DCB"=hex:1c,00,00,00,00,c2,01,00,11,00,00,00,00,00,0a,00,0a,00,08,00,00,11,13,\
+  00,00,00,ac,7b
+"VoiceSwitchFeatures"=hex:48,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00
+
+[HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Class\Modem\0001]
+"Default"=hex:3c,00,00,00,00,00,00,00,00,00,00,00,01,00,00,00,40,01,00,00
+"DCB"=hex:1c,00,00,00,00,c2,01,00,11,00,00,00,00,00,0a,00,0a,00,08,00,00,11,13,\
+  00,00,00,ac,7b
+"VoiceSwitchFeatures"=hex:48,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00
+
+[HKEY_LOCAL_MACHINE\System\CurrentControlSet\Services\Class\Modem\0002]
+"Default"=hex:3c,00,00,00,00,00,00,00,00,00,00,00,01,00,00,00,40,01,00,00
+"DCB"=hex:1c,00,00,00,00,c2,01,00,11,00,00,00,00,00,0a,00,0a,00,08,00,00,11,13,\
+  00,00,00,ac,7b
+"VoiceSwitchFeatures"=hex:48,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,00,\
+  00,00,00,00,00

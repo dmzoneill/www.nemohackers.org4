@@ -1,0 +1,21 @@
+#divMenu {
+	POSITION: absolute
+}
+.cat {
+	FONT-SIZE: 8pt; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+TD {
+	FONT-SIZE: 8pt; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.tabs {
+	FONT-SIZE: 8pt; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+.smalltext {
+	FONT-SIZE: 7pt; FONT-FAMILY: Verdana, Arial, Helvetica, sans-serif
+}
+A:visited {
+	TEXT-DECORATION: none
+}
+.bodytextsm {
+	FONT-SIZE: 8pt; COLOR: #000000; FONT-FAMILY: Verdana, Arial, sans-serif; TEXT-ALIGN: justify
+}
