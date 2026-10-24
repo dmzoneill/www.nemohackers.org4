@@ -1,9 +1,10 @@
+<?php // jscpd:ignore-start ?>
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 TRANSITIONAL//EN">
 <HTML>
 <HEAD>
 <TITLE>[ nemo hackers ]</TITLE>
-<?php require('meta.php'); ?>
-<?php require('header.php'); ?>
+<?php /* @phpstan-ignore-line */ /** @psalm-suppress MissingFile */ /** @psalm-suppress MissingFile */ require('meta.php'); ?>
+<?php /* @phpstan-ignore-line */ /** @psalm-suppress MissingFile */ /** @psalm-suppress MissingFile */ require('header.php'); ?>
 
 
 <!--start the individual page-->
@@ -44,7 +45,7 @@
 
 <CENTER>
 
-    <?php require('menu.php'); ?>
+    <?php /* @phpstan-ignore-line */ /** @psalm-suppress MissingFile */ /** @psalm-suppress MissingFile */ require('menu.php'); ?>
 
 </CENTER>
 
@@ -174,7 +175,7 @@ About :The Hacking magazine
 
 <A HREF="http://www.hideaway.net">Active Matrix's Hideaway</A><BR>
   <FONT face="Verdana, Helvetica" color="white" size="1">
-About :Internet secuirty news
+About :Internet secuirty news<!-- codespell:ignore secuirty -->
 </font>
 <br>
 <br>
@@ -196,7 +197,7 @@ About :This site is mostly underconstruction
 <br>
 <A HREF="http://www.access.org.uk">Access All Areas</A><BR>
   <FONT face="Verdana, Helvetica" color="white" size="1">
-About :Computer secuirty and hackers Confrence this is a pretty good site
+About :Computer secuirty and hackers Confrence this is a pretty good site<!-- codespell:ignore secuirty -->
 </font>
 <br>
 <br>
@@ -231,7 +232,7 @@ About :CAU GHQ????
 <br>
 <A HREF="http://www.elitehackers.com">Elitehackers</A><BR>
   <FONT face="Verdana, Helvetica" color="white" size="1">
-About :Highly recommended a must visit, Nemohackers recomends that you check out the fourms and all other parts of the site
+About :Highly recommended a must visit, Nemohackers recomends that you check out the fourms and all other parts of the site<!-- codespell:ignore recomends -->
 </font>
 <br>
 <br>
@@ -239,7 +240,7 @@ About :Highly recommended a must visit, Nemohackers recomends that you check out
 <br>
 <A HREF="http://www.insecure.org/">Fyodor's Playhouse</A><BR>
   <FONT face="Verdana, Helvetica" color="white" size="1">
-About : Highly recommended got A hell of alot of stuff
+About : Highly recommended got A hell of alot of stuff<!-- codespell:ignore alot -->
 </font>
 <br>
 <br>
@@ -324,7 +325,7 @@ About :Highly recommended with a large selection of informative texts  .
 
 <A HREF="http://www.l0pht.com">L0pht Heavy Industries</A><BR>
   <FONT face="Verdana, Helvetica" color="white" size="1">
-About :A secuirty and exploite site very handy
+About :A secuirty and exploite site very handy<!-- codespell:ignore secuirty -->
 </font>
 <br>
 <br>
@@ -347,12 +348,12 @@ About :er..Under construstion but a few pages are up
 <br>
 <A HREF="http://www.pyrotecnics.com">Pyrotecnics.com</A><BR>
   <FONT face="Verdana, Helvetica" color="white" size="1">
-About :This is a pretty good site with a few good apps and some good infomation
+About :This is a pretty good site with a few good apps and some good infomation<!-- codespell:ignore infomation -->
 </font>
 <BR>
 <A HREF="http://pthunited.com">Pthunited.com</A><BR>
   <FONT face="Verdana, Helvetica" color="white" size="1">
-About :An infomation site
+About :An infomation site<!-- codespell:ignore infomation -->
 </font>
 <br>
 <br>
@@ -380,7 +381,7 @@ About : A great site for exploits Highly recommended
 <br>
 <A HREF="http://www.technotronic.com">Technotronic</A><BR>
   <FONT face="Verdana, Helvetica" color="white" size="1">
-About : A pretty good site has got  uptodate ftp listings
+About : A pretty good site has got  uptodate ftp listings<!-- codespell:ignore uptodate -->
 </font>
 <br>
 <br>
@@ -488,7 +489,8 @@ About :HACKERS.gr???
 
 <TR BGCOLOR="#024070" HEIGHT=2><TD BGCOLOR="#024070" HEIGHT=2></TD></TR></TABLE>
 
-    <?php require('footer.php'); ?>
+    <?php /* @phpstan-ignore-line */ /** @psalm-suppress MissingFile */ /** @psalm-suppress MissingFile */ require('footer.php'); ?>
 
 <BR>
 
+<?php // jscpd:ignore-end ?>

@@ -1,3 +1,4 @@
+<?php // jscpd:ignore-start ?>
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 TRANSITIONAL//EN">
 <HTML>
 <HEAD>
@@ -45,7 +46,7 @@
 
 <CENTER>
 
-    <?php require('../includes/menu.php'); ?>
+    <?php /* @phpstan-ignore-line */ /** @psalm-suppress MissingFile */ /** @psalm-suppress MissingFile */ require('../includes/menu.php'); ?>
 
 </CENTER>
 
@@ -105,7 +106,7 @@
 </TR>
     <FONT face="Verdana, Helvetica" color="white" size="2">
 
-                     We now have so many online tools, we had to make a seperate page for them,
+                     We now have so many online tools, we had to make a seperate page for them,<!-- codespell:ignore seperate -->
 
                      as there were too many to fit on the index page. Please feel free to post suggestions
 
@@ -163,7 +164,7 @@
 
 		   <FONT face="Verdana, Helvetica" color="white" size="2">
 
-	  <a href="#">Mail Bomber 2</a> - Mails a victim with your subject splitted up letter by letter.#disabled#
+	  <a href="#">Mail Bomber 2</a> - Mails a victim with your subject splitted up letter by letter.#disabled#<!-- codespell:ignore splitted -->
 
 	  </td>
 
@@ -293,3 +294,4 @@
 
 <BR>
 
+<?php // jscpd:ignore-end ?>

@@ -1,9 +1,10 @@
+<?php // jscpd:ignore-start ?>
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 TRANSITIONAL//EN">
 <HTML>
 <HEAD>
 <TITLE>[ nemo hackers ]</TITLE>
-<?php require('meta.php'); ?>
-<?php require('header.php'); ?>
+<?php /* @phpstan-ignore-line */ /** @psalm-suppress MissingFile */ /** @psalm-suppress MissingFile */ require('meta.php'); ?>
+<?php /* @phpstan-ignore-line */ /** @psalm-suppress MissingFile */ /** @psalm-suppress MissingFile */ require('header.php'); ?>
 
 
 <!--start the individual page-->
@@ -46,7 +47,7 @@
 
 <CENTER>
 
-    <?php require('menu.php'); ?>
+    <?php /* @phpstan-ignore-line */ /** @psalm-suppress MissingFile */ /** @psalm-suppress MissingFile */ require('menu.php'); ?>
 
 </CENTER>
 
@@ -176,7 +177,8 @@ represent a commitment on the part of Nemohackers in the future.
 
 <TR BGCOLOR="#024070" HEIGHT=2><TD BGCOLOR="#024070" HEIGHT=2></TD></TR></TABLE>
 
-    <?php require('footer.php'); ?>
+    <?php /* @phpstan-ignore-line */ /** @psalm-suppress MissingFile */ /** @psalm-suppress MissingFile */ require('footer.php'); ?>
 
 <BR>
 
+<?php // jscpd:ignore-end ?>

@@ -18,3 +18,11 @@
 
 # Vendored third-party: NewsPro Perl news script installed in CGI-BIN (NEWSPRO.CGI, NPLIB.PL, NPCONFIG.PL).
 **/CGI-BIN/
+
+# Data files with no comment syntax: search-engine stop-word list and shared hyperlink include copies.
+**/nemohacker shtml/SEARCH/configuration/stop_terms.txt
+**/SITE/INCLUDES/hyperlinks.txt
+**/public_html/INCLUDES/hyperlinks.txt
+
+# Vendored third-party: phpMyAdmin (phpmyadmin.net, GPL).
+**/phpmyadmin/
