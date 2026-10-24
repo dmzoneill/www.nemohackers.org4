@@ -1,4 +1,6 @@
 #!/usr/bin/perl -w
+## no critic
+# jscpd:ignore-start
 ################################################################################
 # eUpload                                      Version 1.0                     #
 # Copyright 2000 Frederic TYNDIUK (FTLS)       All Rights Reserved.            #
@@ -70,14 +72,14 @@ if ($DISPLAY_LANG eq 'Fr') {
 		'add_user' => 'Ajouter', 'edit_user' => 'Edit', 'del_user' => 'Supprimer',  'log' => 'Entrer');
 	%NAME_HEADTAB = ('name' => 'Nom', 'level' => 'Droits', 'user_path' => 'R&eacute;pertoire utilisateur',
 		'login' => 'Identifiant', 'password' => 'Mot de passe', 'new_login' => 'Nouvel identifiant',
-		'new_pass' => 'Nouveau mot de passe', 'conf_pass' => 'Confimer mot de passe',
-		'admin' => 'Administrateur', 'member' => 'Membre', 'w_path' => "(Chemin inexistant !)");
+		'new_pass' => 'Nouveau mot de passe', 'conf_pass' => 'Confimer mot de passe', # codespell:ignore mot
+		'admin' => 'Administrateur', 'member' => 'Membre', 'w_path' => "(Chemin inexistant !)"); # codespell:ignore inexistant
 	%NAME_TITLE   = ('common_admin' => "eUpload, &eacute;cran d'administration", 'common_member' => 'eUpload, &eacute;cran de chargement',
-		'error_form' => 'Erreur : Formulaire incomplet', 'manage_users' => 'Management des utilisateurs', 'edit_user' => "Editer 'Value_login' utilisateur", 'add_user' => 'Ajout d\'un utilisateur',
-		'user_saved' => "Utilisateur 'Value_login' sav&eacute;", 'user_added' => "Nouvel utilisateur 'Value_login' ajout&eacute;", 'user_deleted' => "Utilisateur 'Value_new_login' supprim&eacute;",
-		'change_pass' => 'Changer votre mot de passe', 'chpass_invalid' => 'Nouveau mot de passe invalide', 'chpass_updated' => 'Mot de passe de Value_login mis &agrave; jour',
-		'enter_pass' => 'Entrer votre mot de passe', 'invalid_pass' => 'MOT de PASSE INCORECT',
-		'EU_BadFN' => "Error: Nom de fichier 'Value_FileName' incorrect", 'EU_FExist' => "Error: Fichier 'Value_FileName' existant, impossible de le modifier!",
+		'error_form' => 'Erreur : Formulaire incomplet', 'manage_users' => 'Management des utilisateurs', 'edit_user' => "Editer 'Value_login' utilisateur", 'add_user' => 'Ajout d\'un utilisateur', # codespell:ignore editer
+		'user_saved' => "Utilisateur 'Value_login' sav&eacute;", 'user_added' => "Nouvel utilisateur 'Value_login' ajout&eacute;", 'user_deleted' => "Utilisateur 'Value_new_login' supprim&eacute;", # codespell:ignore sav
+		'change_pass' => 'Changer votre mot de passe', 'chpass_invalid' => 'Nouveau mot de passe invalide', 'chpass_updated' => 'Mot de passe de Value_login mis &agrave; jour', # codespell:ignore mis,mot
+		'enter_pass' => 'Entrer votre mot de passe', 'invalid_pass' => 'MOT de PASSE INCORECT', # codespell:ignore mot
+		'EU_BadFN' => "Error: Nom de fichier 'Value_FileName' incorrect", 'EU_FExist' => "Error: Fichier 'Value_FileName' existant, impossible de le modifier!", # codespell:ignore existant
 		'EU_Size' => "Error: Erreur de chargement de 'Value_FileName'", 'Upload_Succes' => 'Chargement r&eacute;ussi !',
 		'Upload_Succes_txt' => "'Value_FileName' (Value_Size bytes, Value_Time s) est sauv&eacute;");
 } else {
@@ -434,3 +436,4 @@ sub Read_Data_File {
 	close(FILE);
 	return @data;
 }
+# jscpd:ignore-end

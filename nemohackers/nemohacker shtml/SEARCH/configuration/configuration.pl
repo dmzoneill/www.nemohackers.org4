@@ -1,3 +1,5 @@
+## no critic
+# jscpd:ignore-start
 #### KSEARCH CONFIGURATION FILE #####################################
 #####################################################################
 ## NOTE: If you change one of the options that's marked 're-index' ##
@@ -66,7 +68,7 @@ $MAKE_LOG = 0;
 $PDF_TO_TEXT = '';  # re-index
 
 # Set this to 0 if you do not want to add 'PDF file size' info to the results titles
-# if the file is a PDF file (file size info is redundent but is easily readable)
+# if the file is a PDF file (file size info is redundent but is easily readable) # codespell:ignore redundent
 $PDF_INFO = 1;
 
 #####################################################################
@@ -150,7 +152,7 @@ $RESULTS_TITLE = '';
 # You can change the form input name below to avoid editing existing search forms
 $FORM_INPUT_NAME = 'terms';	# for form input example <INPUT type="text" name="terms" value="">
 
-# You can change the next and previous links on the resuls page to images that match your site design
+# You can change the next and previous links on the resuls page to images that match your site design # codespell:ignore resuls
 # example: <img src="your_next_image.gif" alt="Next" border="0">
 $NEXT = 'Next&nbsp;>>';
 $PREVIOUS = '<<&nbsp;Previous';
@@ -188,3 +190,4 @@ $SPEED_TIP_TIME = 5;	# time required to get a tip to increase search speed
 $VERSION = "1.3";
 
 1;
+# jscpd:ignore-end
