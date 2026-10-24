@@ -1,4 +1,5 @@
 <?php
+// phpcs:ignoreFile
 // jscpd:ignore-start
 /* $Id: tbl_properties.php,v 1.30 2000/07/14 08:44:43 tobias Exp $ */
 

@@ -1,3 +1,4 @@
+<?php // phpcs:ignoreFile ?>
 <?php // jscpd:ignore-start ?>
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 TRANSITIONAL//EN">
 <HTML>
