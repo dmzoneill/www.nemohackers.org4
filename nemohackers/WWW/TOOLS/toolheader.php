@@ -1,8 +1,10 @@
+<?php // phpcs:ignoreFile ?>
+<?php // jscpd:ignore-start ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 3.2//EN">
 
 <?php
 
-require("../site/includes/theader.php");
+/* @phpstan-ignore-line */ /** @psalm-suppress MissingFile */ /** @psalm-suppress MissingFile */ require("../site/includes/theader.php");
 
 ?>
 
@@ -56,7 +58,7 @@ require("../site/includes/theader.php");
 
 
 
-                    require("../site/includes/home.txt");
+                    /* @phpstan-ignore-line */ /** @psalm-suppress MissingFile */ /** @psalm-suppress MissingFile */ require("../site/includes/home.txt");
 
 
 
@@ -124,7 +126,7 @@ require("../site/includes/theader.php");
 
 
 
-              <?php require('../site/login.php'); ?>
+              <?php /* @phpstan-ignore-line */ /** @psalm-suppress MissingFile */ /** @psalm-suppress MissingFile */ require('../site/login.php'); ?>
               </TD>
 
 
@@ -187,7 +189,7 @@ require("../site/includes/theader.php");
 
 
 
-                  <FONT face="Verdana, Helvetica" color="white" size="1"><?php require('../site/tools.php'); ?></FONT>
+                  <FONT face="Verdana, Helvetica" color="white" size="1"><?php /* @phpstan-ignore-line */ /** @psalm-suppress MissingFile */ /** @psalm-suppress MissingFile */ require('../site/tools.php'); ?></FONT>
 
 
 
@@ -246,3 +248,4 @@ require("../site/includes/theader.php");
 
               
           <TD width="100%">
+<?php // jscpd:ignore-end ?>

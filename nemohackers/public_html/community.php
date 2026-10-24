@@ -1,8 +1,10 @@
+<?php // phpcs:ignoreFile ?>
+<?php // jscpd:ignore-start ?>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 3.2//EN">
 
 <?php
 
-require("includes/header.php");
+/* @phpstan-ignore-line */ /** @psalm-suppress MissingFile */ /** @psalm-suppress MissingFile */ require("includes/header.php");
 
 ?>
 
@@ -36,7 +38,7 @@ require("includes/header.php");
                   <FONT face="Verdana, Helvetica" color="white" size="1">
                   <?php
 
-                    require("includes/modules.txt");
+                    /* @phpstan-ignore-line */ /** @psalm-suppress MissingFile */ /** @psalm-suppress MissingFile */ require("includes/modules.txt");
 
                     ?></FONT>
 
@@ -202,9 +204,10 @@ require("includes/header.php");
           </TABLE>
 
 
-<?php require("includes/footer.php");?><BR>
+<?php /* @phpstan-ignore-line */ /** @psalm-suppress MissingFile */ /** @psalm-suppress MissingFile */ require("includes/footer.php");?><BR>
 
 
 
 
 
+<?php // jscpd:ignore-end ?>

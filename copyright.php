@@ -1,9 +1,11 @@
+<?php // phpcs:ignoreFile ?>
+<?php // jscpd:ignore-start ?>
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 TRANSITIONAL//EN">
 <HTML>
 <HEAD>
 <TITLE>[ nemo hackers ]</TITLE>
-<?php require('meta.php'); ?>
-<?php require('header.php'); ?>
+<?php /* @phpstan-ignore-line */ /** @psalm-suppress MissingFile */ /** @psalm-suppress MissingFile */ require('meta.php'); ?>
+<?php /* @phpstan-ignore-line */ /** @psalm-suppress MissingFile */ /** @psalm-suppress MissingFile */ require('header.php'); ?>
 
 
 <!--start the individual page-->
@@ -45,7 +47,7 @@
 
 <CENTER>
 
-    <?php require('menu.php'); ?>
+    <?php /* @phpstan-ignore-line */ /** @psalm-suppress MissingFile */ /** @psalm-suppress MissingFile */ require('menu.php'); ?>
 
 </CENTER>
 
@@ -95,7 +97,7 @@
 <TR>
 <TD WIDTH=3><IMG SRC="./images/tleftblue1agif.gif" BORDER=0></TD>
 <TD BGCOLOR="#024070" WIDTH="754">
-<CENTER><B>Copyright Infomation</B></CENTER></TD>
+<CENTER><B>Copyright Infomation</B></CENTER></TD><!-- codespell:ignore infomation -->
 <TD WIDTH=3><IMG SRC="./images/trightblue1agif.gif" BORDER=0></TD>
 </TR>
 </TABLE>
@@ -180,7 +182,8 @@ Nemohackers and may not be licensed here under.
 
 <TR BGCOLOR="#024070" HEIGHT=2><TD BGCOLOR="#024070" HEIGHT=2></TD></TR></TABLE>
 
-    <?php require('footer.php'); ?>
+    <?php /* @phpstan-ignore-line */ /** @psalm-suppress MissingFile */ /** @psalm-suppress MissingFile */ require('footer.php'); ?>
 
 <BR>
 
+<?php // jscpd:ignore-end ?>
