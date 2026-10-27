@@ -1,6 +1,6 @@
 # NemoHackers.org (version 4)
 
-The source of version 4 of the nemo hackers community website.
+The source of version 4 of the nemo hackers community site.
 
 ## Contents
 
