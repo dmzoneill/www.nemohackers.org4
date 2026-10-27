@@ -1,5 +1,9 @@
 # NemoHackers.org (version 4)
 
+<p align="center">
+  <img src=".github/logo.png" alt="www.nemohackers.org4 logo" width="128" />
+</p>
+
 The source of version 4 of the nemo hackers community site.
 
 ## Contents
